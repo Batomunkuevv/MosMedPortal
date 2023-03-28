@@ -1,0 +1,3374 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8" />
+    <title>Clinic card</title>
+    <meta name="description" content="MosMedPortal" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" href="images/favicon.ico" />
+    
+        <link rel="stylesheet" href="files/swiper-bundle.min.css" />
+    
+        <link rel="stylesheet" href="files/air-datepicker.css" />
+    
+        <link rel="stylesheet" href="css/style.css" />
+    
+</head>
+
+    <body>
+        <div class="wrapper">
+            <header class="site-header site-header--search">
+    <div class="container">
+        <div class="site-header__body site-header__body--search">
+            <div class="site-header__top">
+                <a href="#" class="site-header__logo logo">
+                    <img src="images/logo.svg" alt title />
+                </a>
+                <form action="#" class="site-header__search form-search">
+                    <div class="form-search__item form-search__item--search">
+                        <div class="input">
+                            <div class="input__icon">
+                                <img src="images/icons/loop.svg" alt title />
+                            </div>
+                            <input class="input__element input__element--icon" type="search" name="search" placeholder="Поиск по врачу, клинике, болезни, услуге" />
+                        </div>
+                    </div>
+                    <div class="form-search__separator"></div>
+                    <div class="form-search__item form-search__item--location">
+                        <div class="input">
+                            <div class="input__icon">
+                                <img src="images/icons/location.svg" alt title />
+                            </div>
+                            <input class="input__element input__element--arrow input__element--icon" type="text" name="location" placeholder="Метро или район" />
+                            <span class="input__arrow icon-arrow-more"></span>
+                        </div>
+                    </div>
+                    <button class="form-search__btn form-search__btn--desktop btn">Найти</button>
+                    <button class="form-search__btn form-search__btn--mobile "><img src="images/icons/loop.svg" alt title /></button>
+                </form>
+                <div class="site-header__support support">
+                    <div class="support__icon">
+                        <img src="images/icons/phone.svg" alt title />
+                    </div>
+                    <a href="tel:+74991233456" class="support__number"><b>8 (499) 123-34-56</b></a>
+                    <div class="support__caption">Справочная служба</div>
+                </div>
+                <div class="site-header__burger burger">
+                    <span class="burger__line burger__line--cross"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line burger__line--cross"></span>
+                </div>
+            </div>
+
+            <div class="site-header__bottom">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item menu__item--active"><a href="#" class="menu__link">Клиники</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Врачи</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Диагностика</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Заболевания</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Симптомы</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="site-header__panel">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item menu__item--active"><a href="#" class="menu__link">Клиники</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Врачи</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Диагностика</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Заболевания</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Симптомы</a></li>
+            </ul>
+        </nav>
+        <div class="site-header__support support">
+            <div class="support__icon">
+                <img src="images/icons/phone.svg" alt title />
+            </div>
+            <a href="tel:+74991233456" class="support__number"><b>8 (499) 123-34-56</b></a>
+            <div class="support__caption">Справочная служба</div>
+        </div>
+    </div>
+</header>
+
+            <main class="page">
+                <div class="breadcrumbs breadcrumbs--mobile">
+    <div class="container">
+        <ul class="breadcrumbs__list mobile-overflow">
+            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
+
+            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Клиники</a></li>
+
+            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Многопрофильные клиники</a></li>
+
+            <li class="breadcrumbs__item"><span class="breadcrumbs__current">Клиника персональной медицины La Salute (Ла Салюте)</span></li>
+        </ul>
+    </div>
+</div>
+ <section class="hero-clinic">
+    <div class="container">
+        <div class="hero-clinic__body">
+            <div class="hero-clinic__left">
+                <div class="hero-clinic__logo hero-clinic__logo--desktop">
+                    <img loading="lazy" src="images/pages/clinic-card/hero/logo.svg" alt title />
+                </div>
+                <div data-rating="4.8" class="hero-clinic__rating rating">
+                    <div class="rating__body">
+                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                        <div class="rating__active"></div>
+                    </div>
+                    <b class="rating__value"> 4.8 </b>
+                </div>
+                <a href="#" class="link-reviews">
+                    <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+                    <b>215 отзывов</b>
+                </a>
+                <a href="#" data-popup-btn="appointment-clinic" class="hero-clinic__btn btn">Записаться в клинику</a>
+            </div>
+            <div class="hero-clinic__center">
+                <div class="hero-clinic__info">
+                    <div class="hero-clinic__logo hero-clinic__logo--mobile">
+                        <img loading="lazy" src="images/pages/clinic-card/hero/logo-mobile.svg" alt title />
+                    </div>
+                    <b class="hero-clinic__name"
+                        >Клиника персональной медицины<br />
+                        La Salute (Ла Салюте)</b
+                    >
+
+                    <ul class="hero-clinic__specialties">
+                        <li class="hero-clinic__speciality">Многопрофильный медицинский центр</li>
+                        <li class="hero-clinic__speciality"><b>8 клиник в сети</b></li>
+                    </ul>
+                    <div class="hero-clinic__estimates">
+                        <div data-rating="4.8" class="hero-clinic__rating rating">
+                            <div class="rating__body">
+                                <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                                <div class="rating__active"></div>
+                            </div>
+                            <b class="rating__value"> 4.8 </b>
+                        </div>
+                        <a href="#" class="link-reviews">
+                            <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+                            <b>215 отзывов</b>
+                        </a>
+                    </div>
+
+                    <div class="hero-clinic__reload hero-clinic__reload--mobile">
+                        <img loading="lazy" src="images/icons/reload.svg" alt title />
+                        Обновлено 30.06.22
+                    </div>
+
+                    <ul class="hero-clinic__features features">
+                        <li class="feature feature--blue">
+                            <div class="feature__icon">
+                                <img loading="lazy" src="images/icons/features/users.svg" alt title />
+                            </div>
+                            <div class="feature__text">36 врачей</div>
+                        </li>
+                        <li class="feature feature">
+                            <div class="feature__icon">
+                                <img loading="lazy" src="images/icons/features/parking.svg" alt title />
+                            </div>
+                            <div class="feature__text">Большая парковка</div>
+                        </li>
+                        <li class="feature feature--green">
+                            <div class="feature__icon"><img loading="lazy" src="images/icons/features/wallet.svg" alt title /></div>
+                            <div class="feature__text">Оплата наличными и картами</div>
+                        </li>
+                        <li class="feature feature--orange">
+                            <div class="feature__icon"><img loading="lazy" src="images/icons/features/baby.svg" alt title /></div>
+                            <div class="feature__text">Приём детей от 7 лет</div>
+                        </li>
+                    </ul>
+                    <div class="hero-clinic__place-info hero-clinic__place-info--mobile place-info">
+                        <div class="place-info__contacts">
+                            <div class="place-info__contacts-icon">
+                                <img loading="lazy" src="images/icons/location.svg" alt title />
+                            </div>
+                            <div class="place-info__contacts-body">
+                                <address class="place-info__address">г. Москва, ул. Рублевское шоссе, д. 99 кор. 1</address>
+                                <a href="tel:+74996543210" class="place-info__phone"><b>8 (499) 519-32-85</b></a>
+                            </div>
+                        </div>
+                        <div class="metros">
+                            <div class="metro metro--distance">
+                                <div class="metro__color metro__color--arbat"></div>
+                                Молодежная
+                                <div class="metro__distance">730 м</div>
+                            </div>
+
+                            <div class="metro metro--distance">
+                                <div class="metro__color metro__color--arbat"></div>
+                                Крылатское
+                                <div class="metro__distance">2,2 км</div>
+                            </div>
+                        </div>
+                        <ul class="place-info__schedule">
+                            <li class="place-info__schedule-item">
+                                <div class="place-info__schedule-days">Пн-Пт</div>
+                                <div class="place-info__schedule-hours">8:00 - 21:00</div>
+                            </li>
+
+                            <li class="place-info__schedule-item">
+                                <div class="place-info__schedule-days">Сб</div>
+                                <div class="place-info__schedule-hours">8:00 - 21:00</div>
+                            </li>
+
+                            <li class="place-info__schedule-item">
+                                <div class="place-info__schedule-days">Вс</div>
+                                <div class="place-info__schedule-hours">9:00 - 20:00</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <button data-popup-btn="appointment-clinic" class="hero-clinic__btn hero-clinic__btn--mobile btn">Записаться в клинику</button>
+                    <button data-popup-btn="map" class="hero-clinic__btn hero-clinic__btn--mobile btn btn--icon btn--border">
+                        <span class="btn__icon icon-map"></span>
+                        Посмотреть на карте
+                    </button>
+                </div>
+                <div class="hero-clinic__content">
+                    <b class="hero-clinic__content-title">Информация о клинике</b>
+                    <p>
+                        Клиника персональной медицины La Salute специализируется на оказании широкого спектра медицинских услуг по таким направлениям,
+                        как стоматология, урология, косметология, дерматология, хирургия, кардиология, гинекология и маммология.
+                    </p>
+                    <a class="scroll-to" href="#clinic-information"> Подробная информация о клинике</a>
+                </div>
+            </div>
+            <div class="hero-clinic__right">
+                <div class="hero-clinic__reload hero-clinic__reload--desktop">
+                    <img loading="lazy" src="images/icons/reload.svg" alt title />
+                    Обновлено 30.06.22
+                </div>
+                <div data-map="55.742473, 37.423851" class="hero-clinic__map"></div>
+                <div class="hero-clinic__place-info place-info">
+                    <div class="place-info__contacts">
+                        <div class="place-info__contacts-icon">
+                            <img loading="lazy" src="images/icons/location.svg" alt title />
+                        </div>
+                        <div class="place-info__contacts-body">
+                            <address class="place-info__address">г. Москва, ул. Рублевское шоссе, д. 99 кор. 1</address>
+                            <a href="tel:+74996543210" class="place-info__phone"><b>8 (499) 519-32-85</b></a>
+                        </div>
+                    </div>
+                    <div class="metros">
+                        <div class="metro metro--distance">
+                            <div class="metro__color metro__color--arbat"></div>
+                            Молодежная
+                            <div class="metro__distance">730 м</div>
+                        </div>
+
+                        <div class="metro metro--distance">
+                            <div class="metro__color metro__color--arbat"></div>
+                            Крылатское
+                            <div class="metro__distance">2,2 км</div>
+                        </div>
+                    </div>
+                    <ul class="place-info__schedule">
+                        <li class="place-info__schedule-item">
+                            <div class="place-info__schedule-days">Пн-Пт</div>
+                            <div class="place-info__schedule-hours">8:00 - 21:00</div>
+                        </li>
+
+                        <li class="place-info__schedule-item">
+                            <div class="place-info__schedule-days">Сб</div>
+                            <div class="place-info__schedule-hours">8:00 - 21:00</div>
+                        </li>
+
+                        <li class="place-info__schedule-item">
+                            <div class="place-info__schedule-days">Вс</div>
+                            <div class="place-info__schedule-hours">9:00 - 20:00</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ <section>
+    <div class="container">
+        <h2>Специализация и цены</h2>
+        <form action="#" class="specialisations">
+            <div data-sticky class="specialisations__body mobile-overflow">
+                <div class="specialisations__item radio">
+                    <input checked id="all" type="radio" value="Все специализации" name="specialisations" class="radio__input" />
+                    <label for="all" class="radio__label">Все специализации</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="andrology" type="radio" value="Андрология" name="specialisations" class="radio__input" />
+                    <label for="andrology" class="radio__label">Андрология</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="arthrology" type="radio" value="Артрология" name="specialisations" class="radio__input" />
+                    <label for="arthrology" class="radio__label">Артрология</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="arrhythmology" type="radio" value="Аритмология" name="specialisations" class="radio__input" />
+                    <label for="arrhythmology" class="radio__label">Аритмология</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="gynecology" type="radio" value="Гинекология" name="specialisations" class="radio__input" />
+                    <label for="gynecology" class="radio__label">Гинекология</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="gynecology-and-Endocrinology" type="radio" value="Гинекология-эндокринология" name="specialisations" class="radio__input" />
+                    <label for="gynecology-and-Endocrinology" class="radio__label">Гинекология-эндокринология</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="gastroenterology" type="radio" value="Гастроэнтерология" name="specialisations" class="radio__input" />
+                    <label for="gastroenterology" class="radio__label">Гастроэнтерология</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="cardiology" type="radio" value="Кардиология" name="specialisations" class="radio__input" />
+                    <label for="cardiology" class="radio__label">Кардиология</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="kinesiology" type="radio" value="Кинезиология" name="specialisations" class="radio__input" />
+                    <label for="kinesiology" class="radio__label">Кинезиология</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="otoneurology" type="radio" value="Отоневрология" name="specialisations" class="radio__input" />
+                    <label for="otoneurology" class="radio__label">Отоневрология</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="pediatric" type="radio" value="Педиатрия" name="specialisations" class="radio__input" />
+                    <label for="pediatric" class="radio__label">Педиатрия</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="psychology" type="radio" value="Психология" name="specialisations" class="radio__input" />
+                    <label for="psychology" class="radio__label">Психология</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="plastic-surgery" type="radio" value="Пластическая хирургия" name="specialisations" class="radio__input" />
+                    <label for="plastic-surgery" class="radio__label">Пластическая хирургия</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="sexology" type="radio" value="Сексология" name="specialisations" class="radio__input" />
+                    <label for="sexology" class="radio__label">Сексология</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="therapy" type="radio" value="Терапия" name="specialisations" class="radio__input" />
+                    <label for="therapy" class="radio__label">Терапия</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="traumatology" type="radio" value="Травматология" name="specialisations" class="radio__input" />
+                    <label for="traumatology" class="radio__label">Травматология</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="phlebology" type="radio" value="Флебология" name="specialisations" class="radio__input" />
+                    <label for="phlebology" class="radio__label">Флебология</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="surgery" type="radio" value="Хирургия" name="specialisations" class="radio__input" />
+                    <label for="surgery" class="radio__label">Хирургия</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="epileptiology" type="radio" value="Эпилептология" name="specialisations" class="radio__input" />
+                    <label for="epileptiology" class="radio__label">Эпилептология</label>
+                </div>
+                <div class="specialisations__item radio">
+                    <input id="endocrinology" type="radio" value="Эндокринология" name="specialisations" class="radio__input" />
+                    <label for="endocrinology" class="radio__label">Эндокринология</label>
+                </div>
+            </div>
+            <div class="specialisations__services services">
+                <div data-fold class="services__block services__block--in-listing">
+                    <div class="services__search search">
+                        <div class="input">
+                            <div class="input__icon">
+                                <img src="images/icons/loop.svg" alt title />
+                            </div>
+                            <input class="input__element input__element--icon" type="search" name="search" placeholder="Поиск по ценам на услуги" />
+                        </div>
+                        <button class="search__btn search__btn--desktop btn">Найти</button>
+                        <button type="reset" class="search__reset cross"></button>
+                        <button class="search__btn search__btn--mobile">
+                            <img loading="lazy" src="images/icons/loop.svg" alt title />
+                        </button>
+                    </div>
+                    <div class="services__body">
+                        <ul class="services__column">
+                            <li class="services__item">
+                                <a href="#" class="services__link">MAR-тест</a>
+                                <div class="services__price">от 4200 ₽</div>
+                            </li>
+                            <li class="services__item">
+                                <a href="#" class="services__link">Анализ секрета простаты</a>
+                                <div class="services__price">от 800 ₽</div>
+                            </li>
+                            <li class="services__item">
+                                <a href="#" class="services__link">Введение тампона с лекарственным препаратом,аппликация лекарственных веществ (без стоимости лекарства)</a>
+                                <div class="services__price">от 1500 ₽</div>
+                            </li>
+                            <li class="services__item">
+                                <a href="#" class="services__link">Лечебный массаж простаты</a>
+                                <div class="services__price">от 2290 ₽</div>
+                            </li>
+                            <li class="services__item">
+                                <a href="#" class="services__link">Перевязка маточных труб</a>
+                                <div class="services__price">от 6000 ₽</div>
+                            </li>
+                            <li class="services__item">
+                                <a href="#" class="services__link">Противозачаточное кольцо</a>
+                                <div class="services__price">от 500 ₽</div>
+                            </li>
+                            <li class="services__item">
+                                <a href="#" class="services__link">Лапароскопия миомы матки</a>
+                                <div class="services__price">от 11000 ₽</div>
+                            </li>
+                            <li class="services__item">
+                                <a href="#" class="services__link">Биопсия шейки матки</a>
+                                <div class="services__price">от 450 ₽</div>
+                            </li>
+                            <li class="services__item">
+                                <a href="#" class="services__link">Лапароскопия диагностическая</a>
+                                <div class="services__price">от 9000 ₽</div>
+                            </li>
+                            <li class="services__item">
+                                <a href="#" class="services__link">Конизация шейки матки</a>
+                                <div class="services__price">от 1100 ₽</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div data-fold-content class="services__folded">
+                        <ul class="services__column">
+                            <li class="services__item">
+                                <a href="#" class="services__link">Ведение беременности</a>
+                                <div class="services__price">от 1600 ₽</div>
+                            </li>
+                            <li class="services__item">
+                                <a href="#" class="services__link">Видеокольпоскопия</a>
+                                <div class="services__price">от 1700 ₽</div>
+                            </li>
+                            <li class="services__item">
+                                <a href="#" class="services__link">Вскрытие абсцесса бартолиновой железы</a>
+                                <div class="services__price">от 1000 ₽</div>
+                            </li>
+                            <li class="services__item">
+                                <a href="#" class="services__link">Мазок на флору</a>
+                                <div class="services__price">от 100 ₽</div>
+                            </li>
+                            <li class="services__item">
+                                <a href="#" class="services__link">Удаление полипа матки</a>
+                                <div class="services__price">от 1050 ₽</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <button data-fold-btn class="services__more more">
+                        <span data-open-text="Показать все услуги" data-close-text="Показать все услуги" class="more__text">Показать все услуги </span>
+                        <span class="more__arrow icon-arrow-more"></span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+                <section id="doctors" class="listing">
+    <div class="container">
+        <div class="listing__header listing__header--clinic">
+            <h2>Врачи<span class="listing__count">68</span></h2>
+        </div>
+        <div class="listing__filters-panel filters-panel">
+            <div data-filters class="filters-panel__wrapper">
+                <button data-filters-btn class="filters-panel__btn">
+                    <span class="filters-panel__btn-settings icon-settings"></span>
+                    Фильтры
+                    <span class="filters-panel__btn-arrow icon-arrow-more"></span>
+                </button>
+                <form data-filters-body action="#" class="filters filters--full">
+                    <div class="filters__header">
+                        <b class="filters__title">Фильтры</b>
+                        <div class="filters__close cross cross--background"></div>
+                    </div>
+                    <div class="filters__top">
+                        <div class="filters__body">
+                            <div class="filters__column">
+                                <div class="filters__block">
+                                    <b class="filters__block-caption">Рейтинг</b>
+                                    <div class="filters__block-body">
+                                        <div class="radio">
+                                            <input checked id="something" type="radio" value="Любой рейтинг" name="rating" class="radio__input" />
+                                            <label for="something" class="radio__label">Любой</label>
+                                        </div>
+                                        <div class="radio">
+                                            <input id="5" type="radio" value="Рейтинг от 5" name="rating" class="radio__input" />
+                                            <label for="5" class="radio__label">5</label>
+                                        </div>
+                                        <div class="radio">
+                                            <input id="4+" type="radio" value="Рейтинг от 4" name="rating" class="radio__input" />
+                                            <label for="4+" class="radio__label">4+</label>
+                                        </div>
+                                        <div class="radio">
+                                            <input id="3+" type="radio" value="Рейтинг от 3" name="rating" class="radio__input" />
+                                            <label for="3+" class="radio__label">3+</label>
+                                        </div>
+                                        <div class="radio">
+                                            <input id="2+" type="radio" value="Рейтинг от 2" name="rating" class="radio__input" />
+                                            <label for="2+" class="radio__label">2+</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filters__block filters__block--row">
+                                    <b class="filters__block-caption">Большой стаж (10+ лет)</b>
+                                    <label class="toggler">
+                                        <input type="checkbox" name="internship" value="Больше 10 лет" class="toggler__input" />
+                                        <span class="toggler__switcher"></span>
+                                    </label>
+                                </div>
+                                <div class="filters__block filters__block--row">
+                                    <b class="filters__block-caption">Врач высшей категории</b>
+                                    <label class="toggler">
+                                        <input type="checkbox" name="category" value="Высшая категория" class="toggler__input" />
+                                        <span class="toggler__switcher"></span>
+                                    </label>
+                                </div>
+                                <div class="filters__block filters__block--row">
+                                    <b class="filters__block-caption">Ученая степень</b>
+                                    <label class="toggler">
+                                        <input type="checkbox" name="scientist" value="Ученая степень" class="toggler__input" />
+                                        <span class="toggler__switcher"></span>
+                                    </label>
+                                </div>
+                                <div class="filters__block filters__block--row">
+                                    <b class="filters__block-caption">Онлайн-консультация</b>
+                                    <label class="toggler">
+                                        <input type="checkbox" name="online" value="Онлайн" class="toggler__input" />
+                                        <span class="toggler__switcher"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="filters__column">
+                                <div class="filters__block">
+                                    <b class="filters__block-caption">Стоимость приема</b>
+                                    <div class="range-costs">
+                                        <div class="range-costs__input input">
+                                            <input type="number" name="min" />
+                                        </div>
+                                        <div class="range-costs__separate">—</div>
+                                        <div class="range-costs__input range-costs__input--max input">
+                                            <input type="number" name="max" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filters__block filters__block--row">
+                                    <b class="filters__block-caption">Скидка</b>
+                                    <label class="toggler">
+                                        <input type="checkbox" name="discount" value="Скидка" class="toggler__input" />
+                                        <span class="toggler__switcher"></span>
+                                    </label>
+                                </div>
+                                <div class="filters__block">
+                                    <b class="filters__block-caption">Дата приема</b>
+                                    <div class="input">
+                                        <div class="input__icon">
+                                            <img src="images/icons/calendar.svg" alt="calendar" title="calendar" />
+                                        </div>
+                                        <input
+                                            data-calendar="empty"
+                                            class="input__element input__element--calendar input__element--icon _req"
+                                            placeholder="Выберите дату"
+                                            type="text"
+                                            readonly
+                                            name="date-birthday"
+                                            id="date-birthday"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="filters__block">
+                                    <b class="filters__block-caption">Метро</b>
+                                    <div data-dropdown class="dropdown">
+                                        <div data-dropdown-btn class="dropdown__btn">
+                                            <span data-dropdown-content class="dropdown__btn-content">
+                                                <span class="metro">
+                                                    <div class="metro__color metro__color--tagansk"></div>
+                                                    Текстильщики
+                                                </span>
+                                            </span>
+                                            <span class="dropdown__arrow icon-arrow-more"></span>
+                                        </div>
+                                        <ul data-dropdown-list class="dropdown__list">
+                                            <li data-value="м. Новослободская" class="dropdown__item">
+                                                <span data-dropdown-item-content>
+                                                    <span class="metro">
+                                                        <div class="metro__color metro__color--zamoskvoretskaya"></div>
+                                                        Новослободская
+                                                    </span>
+                                                </span>
+                                            </li>
+                                            <li data-value="м. Текстильщики" class="dropdown__item">
+                                                <span data-dropdown-item-content>
+                                                    <span class="metro">
+                                                        <div class="metro__color metro__color--tagansk"></div>
+                                                        Текстильщики
+                                                    </span>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                        <input data-dropdown-input name="metro" type="text" value="м. Текстильщики" class="dropdown__input" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filters__bottom">
+                        <button type="reset" class="filters__reset">
+                            <span class="cross"></span>
+                            Сбросить
+                        </button>
+                        <div class="filters__btns">
+                            <button class="filters__btn filters__btn--cancel btn btn--border">Отмена</button>
+                            <button type="submit" class="filters__btn filters__btn--accept btn">Применить</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div data-dropdown class="sorting">
+                <div class="sorting__caption">Сортировать:</div>
+                <div class="sorting__dropdown">
+                    <span data-dropdown-btn data-dropdown-content>По популярности</span>
+                    <span class="sorting__direction">
+                        <img loading="lazy" src="images/icons/sort-top-bottom.svg" alt title />
+                    </span>
+                </div>
+                <ul data-dropdown-list class="sorting__list">
+                    <li class="sorting__item selected">
+                        <span data-dropdown-item-content>По популярности</span>
+                        <span class="sorting__check">
+                            <img loading="lazy" src="images/icons/check.svg" alt title />
+                        </span>
+                        <span class="sorting__direction">
+                            <img loading="lazy" src="images/icons/sort-top-bottom.svg" alt title />
+                        </span>
+                    </li>
+                    <li class="sorting__item">
+                        <span data-dropdown-item-content>По рейтингу</span>
+                        <span class="sorting__check">
+                            <img loading="lazy" src="images/icons/check.svg" alt title />
+                        </span>
+                        <span class="sorting__direction">
+                            <img loading="lazy" src="images/icons/sort-top-bottom.svg" alt title />
+                        </span>
+                    </li>
+                    <li class="sorting__item">
+                        <span data-dropdown-item-content>По отзывам</span>
+                        <span class="sorting__check">
+                            <img loading="lazy" src="images/icons/check.svg" alt title />
+                        </span>
+                        <span class="sorting__direction">
+                            <img loading="lazy" src="images/icons/sort-top-bottom.svg" alt title />
+                        </span>
+                    </li>
+                    <li class="sorting__item">
+                        <span data-dropdown-item-content>По цене приема</span>
+                        <span class="sorting__check">
+                            <img loading="lazy" src="images/icons/check.svg" alt title />
+                        </span>
+                        <span class="sorting__direction">
+                            <img loading="lazy" src="images/icons/sort-top-bottom.svg" alt title />
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="filters-panel__selected is-filled selected-filters swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="selected-filters__item">
+                            Гинекологи
+                            <span class="cross"></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="selected-filters__item">
+                            Рейтинг от 4
+                            <span class="cross"></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="selected-filters__item">
+                            Врач высшей категории
+                            <span class="cross"></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="selected-filters__item">
+                            до 2000 ₽
+                            <span class="cross"></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="selected-filters__item">
+                            м. Текстильщики
+                            <span class="cross"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="listing__body"><div class="doctor-card listing__item">
+    <form action="#" data-appointment class="doctor-card__body">
+        <div class="doctor-card__left">
+            <div data-appointment="img" class="doctor-card__icon doctor-card__icon--desktop">
+                <img loading="lazy" src="images/doctors/1.jpg" alt title />
+            </div>
+            <div data-rating="4.8" class="doctor-card__rating rating">
+                <div class="rating__body">
+                    <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                    <div class="rating__active"></div>
+                </div>
+                <b class="rating__value"> 4.8 </b>
+            </div>
+            <p class="doctor-card__recommend">
+                92% пациентов<br />
+                рекомендуют врача
+            </p>
+            <a href="#" class="link-reviews">
+                <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+                <b>68 отзывов</b>
+            </a>
+        </div>
+        <div class="doctor-card__content">
+            <div class="doctor-card__top">
+                <div data-appointment="img" class="doctor-card__icon doctor-card__icon--mobile">
+                    <img loading="lazy" src="images/doctors/1.jpg" alt title />
+                </div>
+                <ul class="doctor-card__specialties">
+                    <li class="doctor-card__speciality">Гинеколог</li>
+                    <li class="doctor-card__speciality">Акушер врач УЗИ</li>
+                    <li class="doctor-card__speciality">Акушер врач УЗИ</li>
+                </ul>
+                <b data-appointment="name" class="doctor-card__name">Манохина Дарья Дмитриевна</b>
+                <ul class="doctor-card__features features">
+                    <li class="feature">
+                        <div class="feature__icon">
+                            <img loading="lazy" src="images/icons/features/clock.svg" alt title />
+                        </div>
+                        <div class="feature__text">Стаж 23 года</div>
+                    </li>
+                    <li class="feature feature--orange">
+                        <div class="feature__icon">
+                            <img loading="lazy" src="images/icons/features/star.svg" alt title />
+                        </div>
+                        <div class="feature__text">Врач высшей категории</div>
+                    </li>
+                    <li class="feature feature--green">
+                        <div class="feature__icon"><img loading="lazy" src="images/icons/features/hat.svg" alt title /></div>
+                        <div class="feature__text">Кандидат медицинских наук</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="doctor-card__estimates">
+                <div data-rating="4.8" class="doctor-card__rating rating">
+                    <div class="rating__body">
+                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                        <div class="rating__active"></div>
+                    </div>
+                    <b class="rating__value"> 4.8 </b>
+                </div>
+                <a href="#" class="link-reviews">
+                    <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+                    <b>68 отзывов</b>
+                </a>
+                <p class="doctor-card__recommend">92% пациентов рекомендуют врача</p>
+            </div>
+            <div data-radios class="doctor-card__radios">
+                <div class="doctor-card__radio radio radio-appointment">
+                    <label class="radio-appointment__label radio__label">
+                        <input type="radio" value="В клинике" name="place-appointment" class="radio__input" />
+                        <div class="radio-appointment__type">
+                            <span class="radio-appointment__icon icon-hospital"></span>
+                            В клинике
+                        </div>
+                        <div class="radio-appointment__prices"><b class="radio-appointment__price"> 1520 ₽</b><b class="radio-appointment__old-price">1900 ₽</b></div>
+                    </label>
+                </div>
+                <div class="doctor-card__radio radio radio-appointment">
+                    <label class="radio-appointment__label radio__label">
+                        <input type="radio" value="Онлайн" name="place-appointment" class="radio__input" />
+                        <div class="radio-appointment__type">
+                            <span class="radio-appointment__icon icon-media"></span>
+                            Онлайн
+                        </div>
+                        <div class="radio-appointment__prices">
+                            <b class="radio-appointment__price"> 990 ₽</b>
+                            <b class="radio-appointment__old-price">1200 ₽</b>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="doctor-card__right">
+            <div class="doctor-card__dates dates">
+                <div class="dates__prev arrow arrow--prev arrow--small arrow arrow--prev arrow--small--small"><span class="icon-arrow-more"></span></div>
+                <div class="swiper slider-dates">
+                    <div data-radios class="swiper-wrapper slider-dates__wrapper"></div>
+                </div>
+                <div class="dates__next arrow arrow--next arrow--small arrow arrow--next arrow--small--small"><span class="icon-arrow-more"></span></div>
+            </div>
+            <div class="doctor-card__schedule schedule">
+                <b class="schedule__date"> Пятница, 14 октября: </b>
+                <div data-radios class="schedule__body mobile-overflow">
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="09:30" name="time-appointment" class="radio__input" />
+                            09:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label"><input type="radio" value="10:00" name="time-appointment" class="radio__input" /> 10:00 </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="10:30" name="time-appointment" class="radio__input" />
+                            10:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label"> <input type="radio" value="11:00" name="time-appointment" class="radio__input" /> 11:00 </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="11:30" name="time-appointment" class="radio__input" />
+                            11:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="12:00" name="time-appointment" class="radio__input" />
+                            12:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="12:30" name="time-appointment" class="radio__input" />
+                            12:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="14:00" name="time-appointment" class="radio__input" />
+                            14:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="14:30" name="time-appointment" class="radio__input" />
+                            14:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="15:00" name="time-appointment" class="radio__input" />
+                            15:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="15:30" name="time-appointment" class="radio__input" />
+                            15:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="16:00" name="time-appointment" class="radio__input" />
+                            16:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label"> <input type="radio" value=17:00" name="time-appointment" class="radio__input" /> 17:00 </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button data-appointment="btn" class="is-hidden"></button>
+    </form>
+</div>
+<div class="doctor-card listing__item">
+    <form action="#" data-appointment class="doctor-card__body">
+        <div class="doctor-card__left">
+            <div data-appointment="img" class="doctor-card__icon doctor-card__icon--desktop">
+                <img loading="lazy" src="images/doctors/5.jpg" alt title />
+            </div>
+            <div data-rating="4.8" class="doctor-card__rating rating">
+                <div class="rating__body">
+                    <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                    <div class="rating__active"></div>
+                </div>
+                <b class="rating__value"> 4.8 </b>
+            </div>
+            <p class="doctor-card__recommend">
+                74% пациентов<br />
+                рекомендуют врача
+            </p>
+            <a href="#" class="link-reviews">
+                <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+                <b>68 отзывов</b>
+            </a>
+        </div>
+        <div class="doctor-card__content">
+            <div class="doctor-card__top">
+                <div class="doctor-card__icon doctor-card__icon--mobile">
+                    <img data-appointment="img" loading="lazy" src="images/doctors/1.jpg" alt title />
+                </div>
+                <ul class="doctor-card__specialties">
+                    <li class="doctor-card__speciality">Гинеколог</li>
+                </ul>
+                <b data-appointment="name" class="doctor-card__name">Сазонова Юлия Михайловна</b>
+                <ul class="doctor-card__features features">
+                    <li class="feature">
+                        <div class="feature__icon">
+                            <img loading="lazy" src="images/icons/features/clock.svg" alt title />
+                        </div>
+                        <div class="feature__text">Стаж 19 лет</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="doctor-card__estimates">
+                <div data-rating="4.8" class="doctor-card__rating rating">
+                    <div class="rating__body">
+                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                        <div class="rating__active"></div>
+                    </div>
+                    <b class="rating__value"> 4.8 </b>
+                </div>
+                <a href="#" class="link-reviews">
+                    <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+                    <b>29 отзывов</b>
+                </a>
+                <p class="doctor-card__recommend">74% пациентов рекомендуют врача</p>
+            </div>
+            <div data-radios class="doctor-card__radios">
+                <div class="doctor-card__radio radio radio-appointment">
+                    <label class="radio-appointment__label radio__label">
+                        <input type="radio" value="В клинике" name="place-appointment" class="radio__input" />
+                        <div class="radio-appointment__type">
+                            <span class="radio-appointment__icon icon-hospital"></span>
+                            В клинике
+                        </div>
+                        <div class="radio-appointment__prices">
+                            <b class="radio-appointment__price"> <span>от</span> 2300 ₽</b>
+                        </div>
+                    </label>
+                </div>
+                <div class="doctor-card__radio radio radio-appointment">
+                    <label class="radio-appointment__label radio__label">
+                        <input type="radio" value="Онлайн" name="place-appointment" class="radio__input" />
+                        <div class="radio-appointment__type">
+                            <span class="radio-appointment__icon icon-media"></span>
+                            Онлайн
+                        </div>
+                        <div class="radio-appointment__prices">
+                            <b class="radio-appointment__price"><span>от</span> 1990 ₽</b>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="doctor-card__right">
+            <div class="doctor-card__empty empty-schedule">
+                <b class="empty-schedule__caption">У врача все занято в ближайшие дни</b>
+                <button class="empty-schedule__btn">Расписание с 20 октября</button>
+            </div>
+        </div>
+        <button data-appointment="btn" class="is-hidden"></button>
+    </form>
+</div>
+<div class="doctor-card listing__item">
+    <form action="#" data-appointment class="doctor-card__body">
+        <div class="doctor-card__left">
+            <div data-appointment="img" class="doctor-card__icon doctor-card__icon--desktop">
+                <img data-appointment="img" loading="lazy" src="images/doctors/2.jpg" alt title />
+            </div>
+            <div data-rating="4.8" class="doctor-card__rating rating">
+                <div class="rating__body">
+                    <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                    <div class="rating__active"></div>
+                </div>
+                <b class="rating__value"> 4.8 </b>
+            </div>
+            <p class="doctor-card__recommend">
+                88% пациентов<br />
+                рекомендуют врача
+            </p>
+            <a href="#" class="link-reviews">
+                <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+                <b>233 отзыва</b>
+            </a>
+        </div>
+        <div class="doctor-card__content">
+            <div class="doctor-card__top">
+                <div class="doctor-card__icon doctor-card__icon--mobile">
+                    <img loading="lazy" src="images/doctors/2.jpg" alt title />
+                </div>
+                <ul class="doctor-card__specialties">
+                    <li class="doctor-card__speciality">Акушер</li>
+                    <li class="doctor-card__speciality">Гинеколог</li>
+                    <li class="doctor-card__speciality">Гинеколог-эндокринолог</li>
+                </ul>
+                <b data-appointment="name" class="doctor-card__name">Хангельдова Карина Григорьевна</b>
+                <ul class="doctor-card__features features">
+                    <li class="feature">
+                        <div class="feature__icon">
+                            <img loading="lazy" src="images/icons/features/clock.svg" alt title />
+                        </div>
+                        <div class="feature__text">Стаж 30 лет</div>
+                    </li>
+                    <li class="feature feature--orange">
+                        <div class="feature__icon">
+                            <img loading="lazy" src="images/icons/features/star.svg" alt title />
+                        </div>
+                        <div class="feature__text">Врач высшей категории</div>
+                    </li>
+                    <li class="feature feature--green">
+                        <div class="feature__icon"><img loading="lazy" src="images/icons/features/hat.svg" alt title /></div>
+                        <div class="feature__text">Кандидат медицинских наук</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="doctor-card__estimates">
+                <div data-rating="4.8" class="doctor-card__rating rating">
+                    <div class="rating__body">
+                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                        <div class="rating__active"></div>
+                    </div>
+                    <b class="rating__value"> 4.8 </b>
+                </div>
+                <a href="#" class="link-reviews">
+                    <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+                    <b>68 отзывов</b>
+                </a>
+                <p class="doctor-card__recommend">92% пациентов рекомендуют врача</p>
+            </div>
+            <div data-radios class="doctor-card__radios">
+                <div class="doctor-card__radio radio radio-appointment">
+                    <label class="radio-appointment__label radio__label">
+                        <input type="radio" value="В клинике" name="place-appointment" class="radio__input" />
+                        <div class="radio-appointment__type">
+                            <span class="radio-appointment__icon icon-hospital"></span>
+                            В клинике
+                        </div>
+                        <div class="radio-appointment__prices"><b class="radio-appointment__price"> 900 ₽</b><b class="radio-appointment__old-price">1500 ₽</b></div>
+                    </label>
+                </div>
+                <div class="doctor-card__radio radio radio-appointment">
+                    <label class="radio-appointment__label radio__label">
+                        <input type="radio" value="Онлайн" name="place-appointment" class="radio__input" />
+                        <div class="radio-appointment__type">
+                            <span class="radio-appointment__icon icon-media"></span>
+                            Онлайн
+                        </div>
+                        <div class="radio-appointment__prices">
+                            <b class="radio-appointment__price"> 790 ₽</b>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="doctor-card__right">
+            <div class="doctor-card__dates dates">
+                <div class="dates__prev arrow arrow--prev arrow--small arrow arrow--prev arrow--small--small"><span class="icon-arrow-more"></span></div>
+                <div class="swiper slider-dates">
+                    <div data-radios class="swiper-wrapper slider-dates__wrapper"></div>
+                </div>
+                <div class="dates__next arrow arrow--next arrow--small arrow arrow--next arrow--small--small"><span class="icon-arrow-more"></span></div>
+            </div>
+            <div class="doctor-card__schedule schedule">
+                <b class="schedule__date">Понедельник, 10 октября: </b>
+                <div data-radios class="schedule__body mobile-overflow">
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="09:30" name="time-appointment" class="radio__input" />
+                            09:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label"><input type="radio" value="10:00" name="time-appointment" class="radio__input" /> 10:00 </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="10:30" name="time-appointment" class="radio__input" />
+                            10:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label"> <input type="radio" value="11:00" name="time-appointment" class="radio__input" /> 11:00 </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="11:30" name="time-appointment" class="radio__input" />
+                            11:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="12:00" name="time-appointment" class="radio__input" />
+                            12:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="12:30" name="time-appointment" class="radio__input" />
+                            12:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="14:00" name="time-appointment" class="radio__input" />
+                            14:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="14:30" name="time-appointment" class="radio__input" />
+                            14:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="15:00" name="time-appointment" class="radio__input" />
+                            15:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="15:30" name="time-appointment" class="radio__input" />
+                            15:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="16:00" name="time-appointment" class="radio__input" />
+                            16:00
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button data-appointment="btn" class="is-hidden"></button>
+    </form>
+</div>
+<div class="doctor-card listing__item">
+    <form action="#" data-appointment="empty" class="doctor-card__body">
+        <div class="doctor-card__left">
+            <div data-appointment="img" class="doctor-card__icon doctor-card__icon--desktop">
+                <img data-appointment="img" loading="lazy" src="images/doctors/3.jpg" alt title />
+            </div>
+            <div data-rating="4.8" class="doctor-card__rating rating">
+                <div class="rating__body">
+                    <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                    <div class="rating__active"></div>
+                </div>
+                <b class="rating__value"> 4.8 </b>
+            </div>
+            <p class="doctor-card__recommend">
+                92% пациентов<br />
+                рекомендуют врача
+            </p>
+            <a href="#" class="link-reviews">
+                <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+                <b>114 отзывов</b>
+            </a>
+        </div>
+        <div class="doctor-card__content">
+            <div class="doctor-card__top">
+                <div class="doctor-card__icon doctor-card__icon--mobile">
+                    <img loading="lazy" src="images/doctors/4.jpg" alt title />
+                </div>
+                <ul class="doctor-card__specialties">
+                    <li class="doctor-card__speciality">Гинеколог</li>
+                    <li class="doctor-card__speciality">Акушер врач УЗИ</li>
+                </ul>
+                <b data-appointment="name" class="doctor-card__name">Сулейманова Зулейха Абакаровна</b>
+                <ul class="doctor-card__features features">
+                    <li class="feature">
+                        <div class="feature__icon">
+                            <img loading="lazy" src="images/icons/features/clock.svg" alt title />
+                        </div>
+                        <div class="feature__text">Стаж 23 года</div>
+                    </li>
+                    <li class="feature feature--orange">
+                        <div class="feature__icon">
+                            <img loading="lazy" src="images/icons/features/star.svg" alt title />
+                        </div>
+                        <div class="feature__text">Врач высшей категории</div>
+                    </li>
+                    <li class="feature feature--green">
+                        <div class="feature__icon"><img loading="lazy" src="images/icons/features/hat.svg" alt title /></div>
+                        <div class="feature__text">Кандидат медицинских наук</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="doctor-card__estimates">
+                <div data-rating="4.8" class="doctor-card__rating rating">
+                    <div class="rating__body">
+                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                        <div class="rating__active"></div>
+                    </div>
+                    <b class="rating__value"> 4.8 </b>
+                </div>
+                <a href="#" class="link-reviews">
+                    <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+                    <b>68 отзывов</b>
+                </a>
+                <p class="doctor-card__recommend">92% пациентов рекомендуют врача</p>
+            </div>
+            <div data-radios class="doctor-card__radios">
+                <div class="doctor-card__radio radio radio-appointment">
+                    <label class="radio-appointment__label radio__label">
+                        <input type="radio" value="В клинике" name="place-appointment" class="radio__input" />
+                        <div class="radio-appointment__type">
+                            <span class="radio-appointment__icon icon-hospital"></span>
+                            В клинике
+                        </div>
+                        <div class="radio-appointment__prices">
+                            <b class="radio-appointment__price"> 2409 ₽</b>
+                            <b class="radio-appointment__old-price"> 3300 ₽</b>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="doctor-card__right">
+            <button href="#" class="doctor-card__btn btn">Записаться на прием</button>
+        </div>
+    </form>
+</div>
+<div class="doctor-card listing__item">
+    <form action="#" data-appointment class="doctor-card__body">
+        <div class="doctor-card__left">
+            <div data-appointment="img" class="doctor-card__icon doctor-card__icon--desktop">
+                <img data-appointment="img" loading="lazy" src="images/doctors/4.jpg" alt title />
+            </div>
+            <div data-rating="4.8" class="doctor-card__rating rating">
+                <div class="rating__body">
+                    <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                    <div class="rating__active"></div>
+                </div>
+                <b class="rating__value"> 4.8 </b>
+            </div>
+            <p class="doctor-card__recommend">
+                92% пациентов<br />
+                рекомендуют врача
+            </p>
+            <a href="#" class="link-reviews">
+                <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+                <b>68 отзывов</b>
+            </a>
+        </div>
+        <div class="doctor-card__content">
+            <div class="doctor-card__top">
+                <div class="doctor-card__icon doctor-card__icon--mobile">
+                    <img loading="lazy" src="images/doctors/4.jpg" alt title />
+                </div>
+                <ul class="doctor-card__specialties">
+                    <li class="doctor-card__speciality">Гинеколог-хирург</li>
+                    <li class="doctor-card__speciality">Гинеколог</li>
+                    <li class="doctor-card__speciality">Малоинвазивный хирург</li>
+                    <li class="doctor-card__speciality">Акушер</li>
+                    <li class="doctor-card__speciality">Врач УЗИ</li>
+                    <li class="doctor-card__speciality">Пластический хирург</li>
+                    <li data-dropdown class="doctor-card__specialities-more">
+                        <ul data-dropdown-list class="doctor-card__specialities-fold">
+                            <li class="doctor-card__speciality doctor-card__speciality--in-dropdown">Гинеколог-хирург</li>
+                            <li class="doctor-card__speciality doctor-card__speciality--in-dropdown">Гинеколог</li>
+                            <li class="doctor-card__speciality doctor-card__speciality--in-dropdown">Малоинвазивный хирург</li>
+                            <li class="doctor-card__speciality doctor-card__speciality--in-dropdown">Акушер</li>
+                            <li class="doctor-card__speciality doctor-card__speciality--in-dropdown">Врач УЗИ</li>
+                            <li class="doctor-card__speciality doctor-card__speciality--in-dropdown">Пластический хирург</li>
+                            <li class="doctor-card__speciality doctor-card__speciality--in-dropdown">Детский гинеколог</li>
+                            <li class="doctor-card__speciality doctor-card__speciality--in-dropdown">Гинеколог-эндокринолог</li>
+                            <li class="doctor-card__speciality doctor-card__speciality--in-dropdown">Маммолог</li>
+                            <li class="doctor-card__speciality doctor-card__speciality--in-dropdown">Детский гинеколог</li>
+                        </ul>
+                        <button data-dropdown-btn class="more">
+                            <span class="more__text">Еще</span>
+                            <span class="more__arrow icon-arrow-more"></span>
+                        </button>
+                    </li>
+                </ul>
+                <b data-appointment="name" class="doctor-card__name">Корнеева Елена Александровна</b>
+                <ul class="doctor-card__features features">
+                    <li class="feature">
+                        <div class="feature__icon">
+                            <img loading="lazy" src="images/icons/features/clock.svg" alt title />
+                        </div>
+                        <div class="feature__text">Стаж 27 лет</div>
+                    </li>
+                    <li class="feature feature--green">
+                        <div class="feature__icon"><img loading="lazy" src="images/icons/features/hat.svg" alt title /></div>
+                        <div class="feature__text">Кандидат медицинских наук</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="doctor-card__estimates">
+                <div data-rating="4.8" class="doctor-card__rating rating">
+                    <div class="rating__body">
+                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                        <div class="rating__active"></div>
+                    </div>
+                    <b class="rating__value"> 4.8 </b>
+                </div>
+                <a href="#" class="link-reviews">
+                    <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+                    <b>68 отзывов</b>
+                </a>
+                <p class="doctor-card__recommend">92% пациентов рекомендуют врача</p>
+            </div>
+            <div data-radios class="doctor-card__radios">
+                <div class="doctor-card__radio radio radio-appointment">
+                    <label class="radio-appointment__label radio__label">
+                        <input type="radio" value="В клинике" name="place-appointment" class="radio__input" />
+                        <div class="radio-appointment__type">
+                            <span class="radio-appointment__icon icon-hospital"></span>
+                            В клинике
+                        </div>
+                        <div class="radio-appointment__prices">
+                            <b class="radio-appointment__price"><span>от</span> 2400 ₽</b>
+                        </div>
+                    </label>
+                </div>
+                <div class="doctor-card__radio radio radio-appointment">
+                    <label class="radio-appointment__label radio__label">
+                        <input type="radio" value="Онлайн" name="place-appointment" class="radio__input" />
+                        <div class="radio-appointment__type">
+                            <span class="radio-appointment__icon icon-media"></span>
+                            Онлайн
+                        </div>
+                        <div class="radio-appointment__prices">
+                            <b class="radio-appointment__price"><span>от</span> 990 ₽</b>
+                            <b class="radio-appointment__old-price">1200 ₽</b>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="doctor-card__right">
+            <div class="doctor-card__dates dates">
+                <div class="dates__prev arrow arrow--prev arrow--small arrow arrow--prev arrow--small--small"><span class="icon-arrow-more"></span></div>
+                <div class="swiper slider-dates">
+                    <div data-radios class="swiper-wrapper slider-dates__wrapper"></div>
+                </div>
+                <div class="dates__next arrow arrow--next arrow--small arrow arrow--next arrow--small--small"><span class="icon-arrow-more"></span></div>
+            </div>
+            <div class="doctor-card__schedule schedule">
+                <b class="schedule__date"> Суббота, 15 октября: </b>
+                <div data-radios class="schedule__body mobile-overflow">
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="09:30" name="time-appointment" class="radio__input" />
+                            09:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label"><input type="radio" value="10:00" name="time-appointment" class="radio__input" /> 10:00 </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="10:30" name="time-appointment" class="radio__input" />
+                            10:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label"> <input type="radio" value="11:00" name="time-appointment" class="radio__input" /> 11:00 </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="11:30" name="time-appointment" class="radio__input" />
+                            11:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="12:00" name="time-appointment" class="radio__input" />
+                            12:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="12:30" name="time-appointment" class="radio__input" />
+                            12:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="14:00" name="time-appointment" class="radio__input" />
+                            14:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="14:30" name="time-appointment" class="radio__input" />
+                            14:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="15:00" name="time-appointment" class="radio__input" />
+                            15:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="15:30" name="time-appointment" class="radio__input" />
+                            15:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="16:00" name="time-appointment" class="radio__input" />
+                            16:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label"> <input type="radio" value=17:00" name="time-appointment" class="radio__input" /> 17:00 </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button data-appointment="btn" class="is-hidden"></button>
+    </form>
+</div>
+<div class="doctor-card listing__item">
+    <form action="#" data-appointment class="doctor-card__body">
+        <div class="doctor-card__left">
+            <div data-appointment="img" class="doctor-card__icon doctor-card__icon--desktop">
+                <img data-appointment="img" loading="lazy" src="images/doctors/4.jpg" alt title />
+            </div>
+            <div data-rating="4.8" class="doctor-card__rating rating">
+                <div class="rating__body">
+                    <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                    <div class="rating__active"></div>
+                </div>
+                <b class="rating__value"> 4.8 </b>
+            </div>
+            <p class="doctor-card__recommend">
+                92% пациентов<br />
+                рекомендуют врача
+            </p>
+            <a href="#" class="link-reviews">
+                <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+                <b>68 отзывов</b>
+            </a>
+        </div>
+        <div class="doctor-card__content">
+            <div class="doctor-card__top">
+                <div class="doctor-card__icon doctor-card__icon--mobile">
+                    <img loading="lazy" src="images/doctors/4.jpg" alt title />
+                </div>
+                <ul class="doctor-card__specialties">
+                    <li class="doctor-card__speciality">Гинеколог-хирург</li>
+                    <li class="doctor-card__speciality">Гинеколог</li>
+                    <li class="doctor-card__speciality">Малоинвазивный хирург</li>
+                    <li class="doctor-card__speciality">Акушер</li>
+                    <li class="doctor-card__speciality">Врач УЗИ</li>
+                    <li class="doctor-card__speciality">Пластический хирург</li>
+                </ul>
+                <b data-appointment="name" class="doctor-card__name">Корнеева Елена Александровна</b>
+                <ul class="doctor-card__features features">
+                    <li class="feature">
+                        <div class="feature__icon">
+                            <img loading="lazy" src="images/icons/features/clock.svg" alt title />
+                        </div>
+                        <div class="feature__text">Стаж 27 лет</div>
+                    </li>
+                    <li class="feature feature--green">
+                        <div class="feature__icon"><img loading="lazy" src="images/icons/features/hat.svg" alt title /></div>
+                        <div class="feature__text">Кандидат медицинских наук</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="doctor-card__estimates">
+                <div data-rating="4.8" class="doctor-card__rating rating">
+                    <div class="rating__body">
+                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                        <div class="rating__active"></div>
+                    </div>
+                    <b class="rating__value"> 4.8 </b>
+                </div>
+                <a href="#" class="link-reviews">
+                    <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+                    <b>68 отзывов</b>
+                </a>
+                <p class="doctor-card__recommend">92% пациентов рекомендуют врача</p>
+            </div>
+            <div data-radios class="doctor-card__radios">
+                <div class="doctor-card__radio radio radio-appointment">
+                    <label class="radio-appointment__label radio__label">
+                        <input type="radio" value="В клинике" name="place-appointment" class="radio__input" />
+                        <div class="radio-appointment__type">
+                            <span class="radio-appointment__icon icon-hospital"></span>
+                            В клинике
+                        </div>
+                        <div class="radio-appointment__prices">
+                            <b class="radio-appointment__price"><span>от</span> 2400 ₽</b>
+                        </div>
+                    </label>
+                </div>
+                <div class="doctor-card__radio radio radio-appointment">
+                    <label class="radio-appointment__label radio__label">
+                        <input type="radio" value="Онлайн" name="place-appointment" class="radio__input" />
+                        <div class="radio-appointment__type">
+                            <span class="radio-appointment__icon icon-media"></span>
+                            Онлайн
+                        </div>
+                        <div class="radio-appointment__prices">
+                            <b class="radio-appointment__price"><span>от</span> 990 ₽</b>
+                            <b class="radio-appointment__old-price">1200 ₽</b>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="doctor-card__right">
+            <div class="doctor-card__dates dates">
+                <div class="dates__prev arrow arrow--prev arrow--small arrow arrow--prev arrow--small--small"><span class="icon-arrow-more"></span></div>
+                <div class="swiper slider-dates">
+                    <div data-radios class="swiper-wrapper slider-dates__wrapper"></div>
+                </div>
+                <div class="dates__next arrow arrow--next arrow--small arrow arrow--next arrow--small--small"><span class="icon-arrow-more"></span></div>
+            </div>
+            <div class="doctor-card__schedule schedule">
+                <b class="schedule__date"> Пятница, 14 октября: </b>
+                <div data-radios class="schedule__body mobile-overflow">
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="09:30" name="time-appointment" class="radio__input" />
+                            09:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label"><input type="radio" value="10:00" name="time-appointment" class="radio__input" /> 10:00 </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="10:30" name="time-appointment" class="radio__input" />
+                            10:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label"> <input type="radio" value="11:00" name="time-appointment" class="radio__input" /> 11:00 </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="11:30" name="time-appointment" class="radio__input" />
+                            11:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="12:00" name="time-appointment" class="radio__input" />
+                            12:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="12:30" name="time-appointment" class="radio__input" />
+                            12:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="14:00" name="time-appointment" class="radio__input" />
+                            14:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="14:30" name="time-appointment" class="radio__input" />
+                            14:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="15:00" name="time-appointment" class="radio__input" />
+                            15:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="15:30" name="time-appointment" class="radio__input" />
+                            15:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="16:00" name="time-appointment" class="radio__input" />
+                            16:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label"> <input type="radio" value=17:00" name="time-appointment" class="radio__input" /> 17:00 </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button data-appointment="btn" class="is-hidden"></button>
+    </form>
+</div>
+</div>
+        <div class="listing__bottom">
+            <ul class="pagination listing__pagination">
+    <li class="pagination__item">
+        <a href="#" class="pagination__link">1</a>
+    </li>
+    <li class="pagination__item pagination__item--points">. . .</li>
+    <li class="pagination__item">
+        <a href="#" class="pagination__link">8</a>
+    </li>
+    <li class="pagination__item pagination__item--active">9</li>
+    <li class="pagination__item">
+        <a href="#" class="pagination__link">10</a>
+    </li>
+</ul>
+
+            <button class="listing__more btn-more">Показать еще</button>
+        </div>
+    </div>
+</section>
+ <section id="clinic-information" class="information">
+    <div class="container">
+        <h2>Информация о клинике</h2>
+        <div data-tabs-container class="information__body">
+            <div class="information__tabs mobile-overflow">
+                <button data-tab="photos-clinic" class="information__tab is-active">
+                    Фотографии клиники
+                    <span class="information__tab-count">19</span>
+                </button>
+                <button data-tab="licenses" class="information__tab">
+                    Лицензии клиники
+                    <span class="information__tab-count">5</span>
+                </button>
+            </div>
+            <div class="information__tabcontents">
+                <div data-more data-more-current data-more-open="6" data-tabcontent="photos-clinic" class="information__tabcontent is-active">
+                    <div class="information__tabcontent-body information__tabcontent-body--photos">
+                        <div data-more-item class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/clinic/01.jpg" alt title />
+                        </div>
+                        <div data-more-item class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/clinic/02.jpg" alt title />
+                        </div>
+                        <div data-more-item class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/clinic/03.jpg" alt title />
+                        </div>
+                        <div data-more-item class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/clinic/04.jpg" alt title />
+                        </div>
+                        <div data-more-item class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/clinic/05.jpg" alt title />
+                        </div>
+                        <div data-more-item class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/clinic/06.jpg" alt title />
+                        </div>
+                        <div data-more-item class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/clinic/07.jpg" alt title />
+                        </div>
+                        <div data-more-item class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/clinic/08.jpg" alt title />
+                        </div>
+                        <div data-more-item class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/clinic/09.jpg" alt title />
+                        </div>
+                        <div data-more-item class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/clinic/10.jpg" alt title />
+                        </div>
+                        <div data-more-item class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/clinic/11.jpg" alt title />
+                        </div>
+                        <div data-more-item class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/clinic/12.jpg" alt title />
+                        </div>
+                        <div data-more-item class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/clinic/10.jpg" alt title />
+                        </div>
+                    </div>
+                    <button data-more-btn class="information__more btn-more">Показать еще</button>
+                </div>
+                <div data-tabcontent="licenses" class="information__tabcontent">
+                    <div class="information__tabcontent-body information__tabcontent-body--photos">
+                        <div class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/licenses/01.jpg" alt title />
+                        </div>
+                        <div class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/licenses/02.jpg" alt title />
+                        </div>
+                        <div class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/licenses/03.jpg" alt title />
+                        </div>
+                        <div class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/licenses/04.jpg" alt title />
+                        </div>
+                        <div class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/licenses/05.jpg" alt title />
+                        </div>
+                        <div class="information__photo">
+                            <img loading="lazy" src="images/pages/clinic-card/information/licenses/06.jpg" alt title />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ <section id="reviews" class="users">
+    <div class="container">
+        <h2>Отзывы<span class="users__count">68</span></h2>
+        <div data-tabs-container class="users__wrapper">
+            <div class="users__body">
+                <div data-tabcontent="positive" class="users__tabcontent is-active">
+                    <div class="user">
+                        <div class="user__info">
+                            <div class="user__info-top">
+                                <div class="user__avatar user__avatar--no-photo"><b>ВА</b></div>
+                                <div class="user__info-top-right">
+                                    <b class="user__author-name">Василиса Андреева</b>
+                                    <div class="user__social"><img loading="lazy" src="images/icons/socials-small/facebook.svg" alt title /> 14.02.2022</div>
+                                </div>
+                            </div>
+                            <div class="user__info-bottom">
+                                <div data-rating="4" class="user__rating rating">
+                                    <div class="rating__body">
+                                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                                        <div class="rating__active"></div>
+                                    </div>
+                                </div>
+                                <div class="user__status"><img loading="lazy" src="images/icons/green-protect.svg" alt title /> Проверено</div>
+                            </div>
+                        </div>
+                        <div class="user__content">
+                            <div class="user__block">
+                                <b>Плюсы</b>
+                                <p>Это лучший врач и прекрасный человек. Внимательная, всегда в прекрасном настроении, все подробно расскажет, добрая, чуткая, от неё веет теплом.</p>
+                            </div>
+                            <div class="user__block">
+                                <b>Минусы</b>
+                                <p>Нет такого.</p>
+                            </div>
+                            <div class="user__block">
+                                <b>Комментарий</b>
+                                <p>
+                                    Замечательный и очень чуткий врач! Мне очень повезло, что в один момент в Перинатальном центре моим врачом стала именно Дарья Дмитриевна. Она приходила к беременным
+                                    в отделение патологии на любой писк, всегда тщательно осматривала, замечательно общалась. Дарья Дмитриевна прекрасный специалист и очень приятный человек, если бы я
+                                    знала в начале беременности, что она ведёт с самого начала, то пошла бы только к ней.
+                                </p>
+                            </div>
+                            <div class="user__answer">
+                                <div class="user__answer-place">
+                                    <div class="user__answer-icon">
+                                        <img loading="lazy" src="images/icons/location.svg" alt title />
+                                    </div>
+                                    <b>Клиника в Текстильщиках</b>
+                                    <address>г. Москва, ул. Волочаевская, д. 15 стр. 1</address>
+                                </div>
+                                <div class="user__answer-date">
+                                    Дата посещения<span>:</span><br />
+                                    12.02.2022
+                                </div>
+                                <div class="user__answer-content">
+                                    <div class="user__answer-avatar">
+                                        <img loading="lazy" src="images/clinics/euromed.svg" alt title />
+                                    </div>
+                                    <p>Спасибо Вам за отзыв!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <div class="user__info">
+                            <div class="user__info-top">
+                                <div class="user__avatar user__avatar--no-photo"><b>АС</b></div>
+                                <div class="user__info-top-right">
+                                    <b class="user__author-name">Алексей Самойлов</b>
+                                    <div class="user__social"><img loading="lazy" src="images/icons/socials-small/facebook.svg" alt title /> 14.02.2022</div>
+                                </div>
+                            </div>
+                            <div class="user__info-bottom">
+                                <div data-rating="5" class="user__rating rating">
+                                    <div class="rating__body">
+                                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                                        <div class="rating__active"></div>
+                                    </div>
+                                </div>
+                                <div class="user__status"><img loading="lazy" src="images/icons/green-protect.svg" alt title /> Проверено</div>
+                            </div>
+                        </div>
+                        <div class="user__content">
+                            <div class="user__block">
+                                <b>Плюсы</b>
+                                <p>Компетентный врач</p>
+                            </div>
+                            <div class="user__block">
+                                <b>Минусы</b>
+                                <p>Сложно записаться.</p>
+                            </div>
+                            <div class="user__block">
+                                <b>Комментарий</b>
+                                <p>Давно знаю доктора Д.Д.Манохину, обращаюсь только к ней! Всегда внимательна, ничего лишнего не назначит и тщательно разбирается в проблеме пациента!</p>
+                            </div>
+                            <div class="user__answer">
+                                <div class="user__answer-place">
+                                    <div class="user__answer-icon">
+                                        <img loading="lazy" src="images/icons/location.svg" alt title />
+                                    </div>
+                                    <b>Клинический госпиталь на Яузе</b>
+                                    <address>г. Москва, ул. Люблинская, д. 9, к. 1</address>
+                                </div>
+                                <div class="user__answer-date">
+                                    Дата посещения<span>:</span><br />
+                                    12.02.2022
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <div class="user__info">
+                            <div class="user__info-top">
+                                <div class="user__avatar user__avatar--no-photo"><b>МА</b></div>
+                                <div class="user__info-top-right">
+                                    <b class="user__author-name">Марк Антонов</b>
+                                    <div class="user__social"><img loading="lazy" src="images/icons/socials-small/facebook.svg" alt title /> 17.02.2022</div>
+                                </div>
+                            </div>
+                            <div class="user__info-bottom">
+                                <div data-rating="4" class="user__rating rating">
+                                    <div class="rating__body">
+                                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                                        <div class="rating__active"></div>
+                                    </div>
+                                </div>
+                                <div class="user__status"><img loading="lazy" src="images/icons/green-protect.svg" alt title /> Проверено</div>
+                            </div>
+                        </div>
+                        <div class="user__content">
+                            <div class="user__block">
+                                <b>Плюсы</b>
+                                <p>Всё.</p>
+                            </div>
+                            <div class="user__block">
+                                <b>Минусы</b>
+                                <p>Нету.</p>
+                            </div>
+                            <div class="user__block">
+                                <b>Комментарий</b>
+                                <p>
+                                    Манохина Дарья Дмитриевна - очень грамотный доктор. Это единственный гинеколог - к которому "хочется идти" :) Я обратилась к доктору по многочисленным рекомендациям
+                                    знакомых. Доктор всё объяснила на понятном мне языке. Полностью выслушала, и дала много полезных советов по моей проблеме. Огромное ей спасибо!
+                                </p>
+                            </div>
+                            <div class="user__answer">
+                                <div class="user__answer-place">
+                                    <div class="user__answer-icon">
+                                        <img loading="lazy" src="images/icons/location.svg" alt title />
+                                    </div>
+                                    <b>Медицина и Красота на Павелецкой</b>
+                                    <address>г. Москва, 6-й Монетчиковский пер., д. 19</address>
+                                </div>
+                                <div class="user__answer-date">
+                                    Дата посещения<span>:</span><br />
+                                    12.02.2022
+                                </div>
+                                <div class="user__answer-content">
+                                    <div class="user__answer-avatar user__answer-avatar--no-photo">К</div>
+                                    <p>Здравствуйте, Анастасия! Спасибо за положительный отзыв! Мы стараемся и работаем для Вас! С уважением, администрация медицинского центра «ОН КЛИНИК».</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-tabcontent="negative" class="users__tabcontent is-active">
+                    <div class="user">
+                        <div class="user__info">
+                            <div class="user__info-top">
+                                <div class="user__avatar user__avatar--no-photo"><b>АС</b></div>
+                                <div class="user__info-top-right">
+                                    <b class="user__author-name">Арминэ Сатурян</b>
+                                    <div class="user__social"><img loading="lazy" src="images/icons/socials-small/facebook.svg" alt title /> 25.02.2022</div>
+                                </div>
+                            </div>
+                            <div class="user__info-bottom">
+                                <div data-rating="3" class="user__rating rating">
+                                    <div class="rating__body">
+                                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                                        <div class="rating__active"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user__content">
+                            <div class="user__block">
+                                <b>Плюсы</b>
+                                <p>Внимательная к каждому пациенту!</p>
+                            </div>
+                            <div class="user__block">
+                                <b>Минусы</b>
+                                <p>Очень долго ждала своего приема.</p>
+                            </div>
+                            <div class="user__block">
+                                <b>Комментарий</b>
+                                <p>
+                                    Прекрасный врач! Попала к ней с угрозой для жизни ребёнка! Прекрасно провела осмотр, очень добрая внимательная и отзывчивая! По факту рассказала и объяснила все
+                                    моменты угрозы, в результате назначила лечение, которое было продуктивно, выписали меня очень быстро! Очень рада, что попала именно к этому врачу! С такими
+                                    специалистами не страшно лежать в больнице!
+                                </p>
+                            </div>
+                            <div class="user__answer">
+                                <div class="user__answer-place">
+                                    <div class="user__answer-icon">
+                                        <img loading="lazy" src="images/icons/location.svg" alt title />
+                                    </div>
+                                    <b>Медцентр ОН КЛИНИК на Новом Арбате</b>
+                                    <address>г. Москва, ул. Оршанская, д. 16, стр. 1</address>
+                                </div>
+                                <div class="user__answer-date">
+                                    Дата посещения<span>:</span><br />
+                                    12.02.2022
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-tabcontent="unverified" class="users__tabcontent is-active">
+                    <div class="user">
+                        <div class="user__info">
+                            <div class="user__info-top">
+                                <div class="user__avatar user__avatar--no-photo"><b>АС</b></div>
+                                <div class="user__info-top-right">
+                                    <b class="user__author-name">Арминэ Сатурян</b>
+                                    <div class="user__social"><img loading="lazy" src="images/icons/socials-small/facebook.svg" alt title /> 25.02.2022</div>
+                                </div>
+                            </div>
+                            <div class="user__info-bottom">
+                                <div data-rating="3" class="user__rating rating">
+                                    <div class="rating__body">
+                                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                                        <div class="rating__active"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user__content">
+                            <div class="user__block">
+                                <b>Плюсы</b>
+                                <p>Внимательная к каждому пациенту!</p>
+                            </div>
+                            <div class="user__block">
+                                <b>Минусы</b>
+                                <p>Очень долго ждала своего приема.</p>
+                            </div>
+                            <div class="user__block">
+                                <b>Комментарий</b>
+                                <p>
+                                    Прекрасный врач! Попала к ней с угрозой для жизни ребёнка! Прекрасно провела осмотр, очень добрая внимательная и отзывчивая! По факту рассказала и объяснила все
+                                    моменты угрозы, в результате назначила лечение, которое было продуктивно, выписали меня очень быстро! Очень рада, что попала именно к этому врачу! С такими
+                                    специалистами не страшно лежать в больнице!
+                                </p>
+                            </div>
+                            <div class="user__answer">
+                                <div class="user__answer-place">
+                                    <div class="user__answer-icon">
+                                        <img loading="lazy" src="images/icons/location.svg" alt title />
+                                    </div>
+                                    <b>Медцентр ОН КЛИНИК на Новом Арбате</b>
+                                    <address>г. Москва, ул. Оршанская, д. 16, стр. 1</address>
+                                </div>
+                                <div class="user__answer-date">
+                                    Дата посещения<span>:</span><br />
+                                    12.02.2022
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="users__more btn-more">Показать еще</button>
+            </div>
+            <div class="users__side">
+                <div data-tabs class="users__tabs mobile-overflow">
+                    <button data-tab="all" class="users__tab is-active">Показать все</button>
+                    <button data-tab="positive" class="users__tab">
+                        <div class="users__tab-icon"><img src="images/icons/like.svg" alt title /></div>
+                        <span class="users__tab-text">Положительные</span>
+                        <div class="users__tab-count">41</div>
+                    </button>
+                    <button data-tab="negative" class="users__tab">
+                        <div class="users__tab-icon"><img src="images/icons/dislike.svg" alt title /></div>
+                        <span class="users__tab-text">Отрицательные</span>
+                        <div class="users__tab-count">24</div>
+                    </button>
+                    <button data-tab="unverified" class="users__tab">
+                        Неподтвержденные
+                        <div class="users__tab-count">3</div>
+                    </button>
+                </div>
+                <a data-popup-btn="review" href="#" class="btn users__btn">Написать отзыв</a>
+                <a href="#" class="users__side-link">Как мы проверяем отзывы?</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+                <section>
+    <div class="container">
+        <h2>Другие клиники сети</h2>
+        <div class="other-clinics">
+            <div class="other-clinics__item place-info">
+                <div class="place-info__contacts">
+                    <div class="place-info__contacts-icon">
+                        <img loading="lazy" src="images/icons/location.svg" alt title />
+                    </div>
+                    <div class="place-info__contacts-body">
+                        <a href="#" class="place-info__clinic"><b>Клиника в Текстильщиках</b></a>
+                        <address class="place-info__address">г. Москва, ул. Волочаевская, д. 15 стр. 1</address>
+                        <a href="tel:+74996543210" class="place-info__phone"><b>8 (499) 322-17-33</b></a>
+                    </div>
+                </div>
+                <div class="metros">
+                    <div class="metro metro--distance">
+                        <div class="metro__color metro__color--tagansk"></div>
+                        Текстильщики
+                        <div class="metro__distance">338 м</div>
+                    </div>
+
+                    <div class="metro metro--distance">
+                        <div class="metro__color metro__color--lublino"></div>
+                        Печатники
+                        <div class="metro__distance">2,1 км</div>
+                    </div>
+                    <div class="metro metro--distance">
+                        <div class="metro__color metro__color--nekrasovskaya"></div>
+                        Стахановская
+                        <div class="metro__distance">2,2 км</div>
+                    </div>
+                </div>
+            </div>
+            <div class="other-clinics__item place-info">
+                <div class="place-info__contacts">
+                    <div class="place-info__contacts-icon">
+                        <img loading="lazy" src="images/icons/location.svg" alt title />
+                    </div>
+                    <div class="place-info__contacts-body">
+                        <a href="#" class="place-info__clinic"><b>Клинический госпиталь на Яузе</b></a>
+                        <address class="place-info__address">г. Москва, ул. Люблинская, д. 9, к. 1</address>
+                        <a href="tel:+74996543210" class="place-info__phone"><b>8 (499) 123-34-56</b></a>
+                    </div>
+                </div>
+                <div class="metros">
+                    <div class="metro metro--distance">
+                        <div class="metro__color metro__color--kalininskaya"></div>
+                        Площадь Ильича
+                        <div class="metro__distance">481 м</div>
+                    </div>
+
+                    <div class="metro metro--distance">
+                        <div class="metro__color metro__color--lublino"></div>
+                        Римская
+                        <div class="metro__distance">574 м</div>
+                    </div>
+                    <div class="metro metro--distance">
+                        <div class="metro__color metro__color--lublino"></div>
+                        Чкаловская
+                        <div class="metro__distance">1,4 км</div>
+                    </div>
+                </div>
+            </div>
+            <div class="other-clinics__item place-info">
+                <div class="place-info__contacts">
+                    <div class="place-info__contacts-icon">
+                        <img loading="lazy" src="images/icons/location.svg" alt title />
+                    </div>
+                    <div class="place-info__contacts-body">
+                        <a href="#" class="place-info__clinic"><b>Медицина и Красота на Павелецкой</b></a>
+                        <address class="place-info__address">г. Москва, 6-й Монетчиковский пер., д. 19</address>
+                        <a href="tel:+74996543210" class="place-info__phone"><b>8 (499) 322-17-33</b></a>
+                    </div>
+                </div>
+                <div class="metros">
+                    <div class="metro metro--distance">
+                        <div class="metro__color metro__color--kolcevaya"></div>
+                        Павелецкая
+                        <div class="metro__distance">310 м</div>
+                    </div>
+
+                    <div class="metro metro--distance">
+                        <div class="metro__color metro__color--zamoskvoretskaya"></div>
+                        Павелецкая
+                        <div class="metro__distance">640 км</div>
+                    </div>
+                    <div class="metro metro--distance">
+                        <div class="metro__color metro__color--kolcevaya"></div>
+                        Добрынинская
+                        <div class="metro__distance">820 км</div>
+                    </div>
+                </div>
+            </div>
+            <div class="other-clinics__item place-info">
+                <div class="place-info__contacts">
+                    <div class="place-info__contacts-icon">
+                        <img loading="lazy" src="images/icons/location.svg" alt title />
+                    </div>
+                    <div class="place-info__contacts-body">
+                        <a href="#" class="place-info__clinic"><b>Медцентр ОН КЛИНИК на Новом Арбате</b></>
+                        <address class="place-info__address">г. Москва, ул. Оршанская, д. 16, стр. 1</address>
+                        <a href="tel:+74996543210" class="place-info__phone"><b>8 (499) 123-34-56</b></a>
+                    </div>
+                </div>
+                <div class="metros">
+                    <div class="metro metro--distance">
+                        <div class="metro__color metro__color--filevskaya"></div>
+                        Смоленская
+                        <div class="metro__distance">900 м</div>
+                    </div>
+
+                    <div class="metro metro--distance">
+                        <div class="metro__color metro__color--arbat"></div>
+                        Арбатская
+                        <div class="metro__distance">1 км</div>
+                    </div>
+                    <div class="metro metro--distance">
+                        <div class="metro__color metro__color--filevskaya"></div>
+                        Арбатская
+                        <div class="metro__distance">1 км</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ <section class="section-with-slider">
+    <div class="container">
+        <div class="section-with-slider__header section-with-slider__header--clinics">
+            <h2>Похожие клиники</h2>
+            <div class="section-with-slider__navigation">
+                <div class="arrow arrow--prev"><span class="icon-arrow-more"></span></div>
+                <div class="arrow arrow--next"><span class="icon-arrow-more"></span></div>
+            </div>
+        </div>
+        <div class="swiper swiper-main">
+            <div class="swiper-main__wrapper swiper-wrapper">
+                <div class="swiper-main__slide swiper-slide">
+                    <div class="clinic-card">
+    <div class="clinic-card__container">
+        <div class="clinic-card__top">
+            <div class="clinic-card__top-left">
+                <a href="#" class="clinic-card__logo">
+                    <picture>
+                        <source srcset="images/clinics/paliha-mobile.svg" media="(max-width: 768px)" />
+                        <img loading="lazy" src="images/clinics/paliha.svg" alt title />
+                    </picture>
+                </a>
+                <div class="clinic-card__rating">
+                    <img loading="lazy" src="images/icons/star-rating.svg" />
+                    <b class="clinic-card__rating-value">4.8</b>
+                </div>
+            </div>
+
+            <a href="#" class="clinic-card__name"> <b>Медицинский центр Палиха </b></a>
+            <div class="clinic-card__category">Многопрофильный медицинский центр</div>
+            <ul class="clinic-card__info">
+                
+                <li class="clinic-card__info-item">11 врачей</li>
+                
+                <li class="clinic-card__info-item">Оплата наличными и картами</li>
+                
+                <li class="clinic-card__info-item">Большая парковка</li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="clinic-card__center">
+        <div data-rating="4.8" class="clinic-card__stars rating">
+            <div class="rating__body">
+                <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                <div class="rating__active"></div>
+            </div>
+            <b class="rating__value"> 4.8 </b>
+        </div>
+        <a href="#" class="link-reviews">
+            <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+            <b>68 отзывов</b>
+        </a>
+    </div>
+    <div class="clinic-card__bottom place-info">
+        <div class="place-info__contacts">
+            <div class="place-info__contacts-icon">
+                <img loading="lazy" src="images/icons/location.svg" alt title />
+            </div>
+            <div class="place-info__contacts-body">
+                <address class="place-info__address">г. Москва, ул. Палиха, д. 13/1</address>
+                <a href="tel:+74996543210" class="place-info__phone"><b>8 (499) 519-32-88</b></a>
+            </div>
+        </div>
+        <div class="metros"> <div href="#" class="metro--distance metro">
+    <span class="metro__color metro__color--serpuhov"></span>Менделеевская
+    
+        <div class="metro__distance">570 м</div>
+    
+</div>  <div href="#" class="metro--distance metro">
+    <span class="metro__color metro__color--kolcevaya"></span>Новослободская
+    
+        <div class="metro__distance">660 м</div>
+    
+</div> </div>
+    </div>
+</div>
+
+                </div>
+                <div class="swiper-main__slide swiper-slide">
+                    <div class="clinic-card">
+    <div class="clinic-card__container">
+        <div class="clinic-card__top">
+            <div class="clinic-card__top-left">
+                <a href="#" class="clinic-card__logo">
+                    <picture>
+                        <source srcset="images/clinics/euromed-mobile.svg" media="(max-width: 768px)" />
+                        <img loading="lazy" src="images/clinics/euromed.svg" alt title />
+                    </picture>
+                </a>
+                <div class="clinic-card__rating">
+                    <img loading="lazy" src="images/icons/star-rating.svg" />
+                    <b class="clinic-card__rating-value">4.7</b>
+                </div>
+            </div>
+
+            <a href="#" class="clinic-card__name"> <b>Евромед </b></a>
+            <div class="clinic-card__category">Многопрофильный медицинский центр</div>
+            <ul class="clinic-card__info">
+                
+                <li class="clinic-card__info-item">11 врачей</li>
+                
+                <li class="clinic-card__info-item">Оплата наличными и картами</li>
+                
+                <li class="clinic-card__info-item">Большая парковка</li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="clinic-card__center">
+        <div data-rating="4.7" class="clinic-card__stars rating">
+            <div class="rating__body">
+                <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                <div class="rating__active"></div>
+            </div>
+            <b class="rating__value"> 4.7 </b>
+        </div>
+        <a href="#" class="link-reviews">
+            <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+            <b>68 отзывов</b>
+        </a>
+    </div>
+    <div class="clinic-card__bottom place-info">
+        <div class="place-info__contacts">
+            <div class="place-info__contacts-icon">
+                <img loading="lazy" src="images/icons/location.svg" alt title />
+            </div>
+            <div class="place-info__contacts-body">
+                <address class="place-info__address">г. Москва, ул. Красина, д. 14, стр. 2</address>
+                <a href="tel:+74996543210" class="place-info__phone"><b>8 (499) 519-32-88</b></a>
+            </div>
+        </div>
+        <div class="metros"> <div href="#" class="metro--distance metro">
+    <span class="metro__color metro__color--zamoskvoretskaya"></span>Маяковская
+    
+        <div class="metro__distance">870 м</div>
+    
+</div>  <div href="#" class="metro--distance metro">
+    <span class="metro__color metro__color--tagansk"></span>Народное ополчение
+    
+        <div class="metro__distance">1,3 км</div>
+    
+</div> </div>
+    </div>
+</div>
+
+                </div>
+                <div class="swiper-main__slide swiper-slide">
+                    <div class="clinic-card">
+    <div class="clinic-card__container">
+        <div class="clinic-card__top">
+            <div class="clinic-card__top-left">
+                <a href="#" class="clinic-card__logo">
+                    <picture>
+                        <source srcset="images/clinics/paliha-mobile.svg" media="(max-width: 768px)" />
+                        <img loading="lazy" src="images/clinics/moscow.svg" alt title />
+                    </picture>
+                </a>
+                <div class="clinic-card__rating">
+                    <img loading="lazy" src="images/icons/star-rating.svg" />
+                    <b class="clinic-card__rating-value">4.9</b>
+                </div>
+            </div>
+
+            <a href="#" class="clinic-card__name"> <b>Московская Клиника </b></a>
+            <div class="clinic-card__category">Многопрофильный медицинский центр</div>
+            <ul class="clinic-card__info">
+                
+                <li class="clinic-card__info-item">45 врачей</li>
+                
+                <li class="clinic-card__info-item">Оплата наличными и картами</li>
+                
+                <li class="clinic-card__info-item">Большая парковка</li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="clinic-card__center">
+        <div data-rating="4.9" class="clinic-card__stars rating">
+            <div class="rating__body">
+                <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                <div class="rating__active"></div>
+            </div>
+            <b class="rating__value"> 4.9 </b>
+        </div>
+        <a href="#" class="link-reviews">
+            <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+            <b>68 отзывов</b>
+        </a>
+    </div>
+    <div class="clinic-card__bottom place-info">
+        <div class="place-info__contacts">
+            <div class="place-info__contacts-icon">
+                <img loading="lazy" src="images/icons/location.svg" alt title />
+            </div>
+            <div class="place-info__contacts-body">
+                <address class="place-info__address">г. Москва, ул. Кожевническая, д.1Б, с1</address>
+                <a href="tel:+74996543210" class="place-info__phone"><b>8 (499) 519-32-88</b></a>
+            </div>
+        </div>
+        <div class="metros"> <div href="#" class="metro--distance metro">
+    <span class="metro__color metro__color--lublino"></span>Марьина Роща
+    
+        <div class="metro__distance">570 м</div>
+    
+</div>  <div href="#" class="metro--distance metro">
+    <span class="metro__color metro__color--kahovskaya"></span>Савеловская
+    
+        <div class="metro__distance">660 м</div>
+    
+</div> </div>
+    </div>
+</div>
+
+                </div>
+            </div>
+            <div class="swiper-pagination swiper-main__pagination"></div>
+        </div>
+    </div>
+</section>
+
+            </main>
+            <footer class="footer">
+    <div class="container">
+        <div class="footer__body">
+            <div class="footer__info">
+                <a href="#" class="footer__logo logo">
+                    <img loading="lazy" src="images/logo.svg" alt title />
+                </a>
+                <a href="mailto:info@mosmedportal.ru" class="footer__mail"> info@mosmedportal.ru </a>
+                <div class="footer__support support">
+                    <a href="tel:+74991233456" class="support__number"><b>8 (499) 123-34-56</b></a>
+                    <div class="support__caption">Справочная служба</div>
+                </div>
+                <div class="socials">
+                    <a href="#" class="socials__link">
+                        <span class="icon-youtube"></span>
+                    </a>
+                    <a href="#" class="socials__link">
+                        <span class="icon-telegram"></span>
+                    </a>
+                    <a href="#" class="socials__link">
+                        <span class="icon-whatsapp"></span>
+                    </a>
+                    <a href="#" class="socials__link">
+                        <span class="icon-vk"></span>
+                    </a>
+                    <a href="#" class="socials__link">
+                        <span class="icon-ok"></span>
+                    </a>
+                </div>
+            </div>
+            <nav class="menu-footer">
+                <div data-fold class="menu-footer__column">
+                    <div data-fold-btn class="menu-footer__caption">О нас <span class="icon-arrow-more menu-footer__caption-arrow"></span></div>
+                    <ul data-fold-content class="menu-footer__list">
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">О проекте</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Информация для пациентов</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Отзывы</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Контакты</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Авторы</a>
+                        </li>
+                    </ul>
+                </div>
+                <div data-fold class="menu-footer__column">
+                    <div data-fold-btn class="menu-footer__caption">Пациентам <span class="icon-arrow-more menu-footer__caption-arrow"></span></div>
+                    <ul data-fold-content class="menu-footer__list">
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Клиники</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Врачи</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Услуги</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Диагностика</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Заболевания</a>
+                        </li>
+                    </ul>
+                </div>
+                <div data-fold class="menu-footer__column">
+                    <div data-fold-btn class="menu-footer__caption">Техническая информация <span class="icon-arrow-more menu-footer__caption-arrow"></span></div>
+                    <ul data-fold-content class="menu-footer__list">
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Политика конфиденциальности</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Пользовательское соглашение</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Политика cookies</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Согласие на обработку персональных данных</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Заболевания</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Симптомы</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="footer__limit">
+                <img loading="lazy" src="images/icons/limit.svg" alt title />
+            </div>
+        </div>
+        <div class="footer__copy">2022 © ООО «МосМедПортал» / ИНН 7777777</div>
+    </div>
+    <div class="footer__disclaimer">
+        <div class="container">
+            <div class="footer__disclaimer-body">
+                <img loading="lazy" src="images/icons/info.svg" alt title />
+                Информация предоставленная на сайте, не может быть использована для постановки диагноза, назначения лечения и не заменяет врача.
+            </div>
+        </div>
+    </div>
+</footer>
+
+            <div class="overlay">
+                <div data-popup="map" class="popup popup--map is-hidden">
+    <div class="popup__header">
+        <b class="popup__title">Клиники, в которых принимает врач</b>
+        <div data-popup-close class="popup__close cross cross--background"></div>
+    </div>
+    <div class="popup__body">
+        <div data-map="55.742473, 37.423851" class="popup__map"></div>
+    </div>
+</div>
+
+                <div data-popup="review" class="popup is-hidden">
+    <div class="popup__header">
+        <b class="popup__title">Написать отзыв о враче</b>
+        <div data-popup-close class="popup__close cross cross--background"></div>
+    </div>
+    <form data-form action="#" class="popup__body">
+        <div class="popup__content form">
+            <div data-rating="0" class="form__rating rating rating--set">
+                <div class="rating__body">
+                    <img loading="lazy" src="images/icons/stars-empty-set.svg" alt title />
+                    <div class="rating__active rating__active--set"></div>
+                    <div class="rating__items">
+                        <input type="radio" name="rating" class="rating__item" value="1" />
+                        <input type="radio" name="rating" class="rating__item" value="2" />
+                        <input type="radio" name="rating" class="rating__item" value="3" />
+                        <input type="radio" name="rating" class="rating__item" value="4" />
+                        <input type="radio" name="rating" class="rating__item" value="5" />
+                    </div>
+                </div>
+            </div>
+            <div class="form__item form__item--textarea">
+                <label for="like" class="form__item-label">Понравилось</label>
+                <textarea class="_req" id="like" name="like"></textarea>
+            </div>
+            <div class="form__item form__item--textarea">
+                <label for="dislike" class="form__item-label">Не понравилось</label>
+                <textarea class="_req" id="dislike" name="dislike"></textarea>
+            </div>
+            <div class="form__item form__item--textarea">
+                <label for="comment" class="form__item-label">Комментарий</label>
+                <textarea id="comment" name="comment"></textarea>
+            </div>
+            <div class="form__item form__item--dropdown">
+                <label for="clinic" class="form__item-label">Клиника, в которой был прием</label>
+                <div data-dropdown class="dropdown">
+                    <div data-dropdown-btn class="dropdown__btn">
+                        <span data-dropdown-content class="dropdown__btn-content">
+                            <div class="form__clinic">
+                                <p class="form__clinic-name">Медицина и Красота на Павелецкой</p>
+                            </div>
+                        </span>
+                        <span class="dropdown__arrow icon-arrow-more"></span>
+                    </div>
+                    <ul data-dropdown-list class="dropdown__list">
+                        <li data-value="Медицина и Красота на Павелецкой" class="dropdown__item">
+                            <span data-dropdown-item-content>
+                                <div class="form__clinic">
+                                    <p class="form__clinic-name">Медицина и Красота на Павелецкой</p>
+                                    <address class="form__clinic-address">6-й Монетчиковский пер., д. 19</address>
+                                </div>
+                            </span>
+                        </li>
+                        <li data-value="Медицина и Красота на Павелецкой" class="dropdown__item">
+                            <span data-dropdown-item-content>
+                                <div class="form__clinic">
+                                    <p class="form__clinic-name">Медицинский центр «К Медицина»</p>
+                                    <address class="form__clinic-address">просп. Мира, д. 105, стр. 1</address>
+                                </div>
+                            </span>
+                        </li>
+                    </ul>
+                    <input data-dropdown-input name="clinic" id="clinic" type="text" value="Медицина и Красота на Павелецкой" class="dropdown__input _req" required />
+                </div>
+            </div>
+            <div class="form__item form__item--calendar">
+                <label for="name" class="form__item-label">Дата посещения</label>
+                <div class="input">
+                    <div class="input__icon">
+                        <img src="images/icons/calendar.svg" alt="calendar" title="calendar" />
+                    </div>
+                    <input data-calendar class="input__element input__element--calendar input__element--icon _req" placeholder="дд-мм--гггг" type="text" readonly name="date" />
+                </div>
+            </div>
+            <div class="form__item">
+                <label for="name" class="form__item-label">Ваше имя/фамилия</label>
+                <input class="_req" type="text" id="name" name="name" placeholder="Имя пациента" />
+            </div>
+            <div class="form__item">
+                <label for="phone" class="form__item-label">Телефон для подтверждения</label>
+                <input class="_req" type="tel" name="phone" placeholder="+7 (___) ___-__-__" />
+                <p class="form__item-info">На этот номер вы получите SMS с кодом подтверждения. Так мы убедимся, что отзыв оставил сам пациент, а не кто-то другой.</p>
+                <a href="#" class="form__resend is-hidden">Отправить еще раз через 25 сек</a>
+            </div>
+        </div>
+        <div class="popup__btns">
+            <div class="popup__code is-hidden">
+                <b class="popup__code-title">Код из SMS</b>
+                <input class="popup__code-input" type="text" id="code" name="code" placeholder="786435" />
+            </div>
+            <button class="popup__btn popup__btn--confirm is-hidden btn">Подтвердить</button>
+            <button type="reset" data-popup-close class="popup__btn btn btn--border">Отмена</button>
+            <button data-popup-send class="popup__btn btn">Оставить отзыв</button>
+        </div>
+        <div class="popup__bottom">
+            <div class="popup__policy policy">
+                <div class="policy__checkbox checkbox">
+                    <input id="policy_1" checked name="policy" type="checkbox" class="checkbox__element" />
+                    <label for="policy_1" class="checkbox__label"></label>
+                </div>
+                <div class="policy__text">
+                    Нажимая «Оставить отзыв», я принимаю условия<a href="#"> пользовательского соглашения</a> и даю согласие на <a href="#">обработку персональных данных</a>.
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+                <div data-popup="review-success" class="popup popup--thanks is-hidden">
+    <div class="popup__header">
+        <b class="popup__title popup__title--mobile">Спасибо за отзыв!</b>
+        <b class="popup__title popup__title--desktop"><img class="popup__title-icon" loading="lazy" src="images/icons/green-check.svg" alt title /> Спасибо за комментарий!</b>
+        <div data-popup-close class="popup__close cross cross--background"></div>
+    </div>
+    <div class="popup__body">
+        <div class="popup__content">
+            <b class="popup__title popup__title--mobile"><img class="popup__title-icon popup__title-icon--mobile" loading="lazy" src="images/icons/green-check.svg" alt title /> Спасибо за отзыв!</b>
+            <p>
+                Мы опубликуем его сразу<br />
+                после проверки.
+            </p>
+        </div>
+        <div class="popup__btns">
+            <button data-popup-close class="popup__btn btn">Хорошо</button>
+        </div>
+    </div>
+</div>
+
+                <div data-popup="appointment-clinic" class="popup is-hidden">
+    <div class="popup__header">
+        <b class="popup__title">Запись на прием в клинику</b>
+        <div data-popup-close class="popup__close cross cross--background"></div>
+    </div>
+    <div class="doctor-appointment">
+        <div class="doctor-appointment__left">
+            <div data-popup-appointment="img" class="doctor-appointment__icon">
+                <img src="images/pages/clinic-card/hero/logo.svg" alt title />
+            </div>
+            <div class="doctor-appointment__rating">
+                <img src="images/icons/star-red.svg" alt title />
+                <span data-popup-appointment="rating">4.8</span>
+            </div>
+        </div>
+        <div class="doctor-appointment__content">
+            <div class="doctor-appointment__top">
+                <div data-popup-appointment="img" class="doctor-appointment__icon doctor-appointment__icon--mobile">
+                    <img src="images/pages/clinic-card/hero/logo.svg" alt title />
+                </div>
+                <b data-popup-appointment="name" class="doctor-appointment__name">Клиника персональной медицины La Salute (Ла Салюте)</b>
+                <div data-rating="4.8" class="doctor-appointment__rating doctor-appointment__rating--mobile rating">
+                    <div class="rating__body">
+                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                        <div class="rating__active"></div>
+                    </div>
+                    <b data-popup-appointment="rating" class="rating__value"> 4.8 </b>
+                </div>
+            </div>
+            <div class="doctor-appointment__infos">
+                <div class="doctor-appointment__info-caption">Адрес</div>
+                <div data-popup-appointment="address" class="doctor-appointment__info-content">г. Москва, ул. Рублевское шоссе, д. 99 кор. 1</div>
+                <div class="doctor-appointment__info-caption">Метро</div>
+                <div data-popup-appointment="metros" class="metros">
+                    <div class="metro">
+                        <div class="metro__color metro__color--arbat"></div>
+                        Молодежная
+                    </div>
+                    <div class="metro">
+                        <div class="metro__color metro__color--arbat"></div>
+                        Крылатское
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form data-form action="#" class="popup__body">
+        <div class="popup__content form">
+            <div class="form__item">
+                <label for="name" class="form__item-label">Имя</label>
+                <input class="_req" type="text" id="name" name="name" placeholder="Контактное лицо" />
+            </div>
+            <div class="form__item">
+                <label for="surname" class="form__item-label">Фамилия</label>
+                <input class="_req" type="text" id="surname" name="surname" placeholder="Фамилия" />
+            </div>
+            <div class="form__item">
+                <label for="date-birthday" class="form__item-label">Дата рождения пациента</label>
+                <div class="input">
+                    <div class="input__icon">
+                        <img src="images/icons/calendar.svg" alt title />
+                    </div>
+                    <input
+                        data-calendar="empty"
+                        data-calendar-all
+                        class="input__element input__element--calendar input__element--icon _req"
+                        placeholder="дд-мм--гггг"
+                        type="text"
+                        readonly
+                        name="date-birthday"
+                        id="date-birthday"
+                    />
+                </div>
+            </div>
+            <div class="form__item">
+                <label for="phone" class="form__item-label">Телефон для подтверждения</label>
+                <input class="_req" type="tel" name="phone" placeholder="+7 (___) ___-__-__" />
+                <p class="form__item-info">На этот номер вы получите SMS с кодом подтверждения и информацию о записи</p>
+                <a href="#" class="form__resend is-hidden">Отправить еще раз через 25 сек</a>
+            </div>
+        </div>
+        <div class="popup__btns">
+            <div class="popup__code is-hidden">
+                <b class="popup__code-title">Код из SMS</b>
+                <input class="popup__code-input" type="text" id="code" name="code" placeholder="786435" />
+            </div>
+            <button class="popup__btn popup__btn--confirm is-hidden btn">Подтвердить</button>
+            <button type="reset" data-popup-close class="popup__btn btn btn--border">Отмена</button>
+            <button data-popup-send class="popup__btn btn">Записаться</button>
+        </div>
+        <div class="popup__bottom">
+            <div class="popup__policy policy">
+                <div class="policy__checkbox checkbox">
+                    <input id="policy_1" checked name="policy" type="checkbox" class="checkbox__element" />
+                    <label for="policy_1" class="checkbox__label"></label>
+                </div>
+                <div class="policy__text">Нажимая «Записаться», я принимаю условия<a href="#"> пользовательского соглашения</a> и даю согласие на <a href="#">обработку персональных данных</a>.</div>
+            </div>
+        </div>
+    </form>
+</div>
+
+                <div data-popup="appointment-clinic-success" class="popup is-hidden">
+    <div class="popup__header">
+        <b class="popup__title"> <img data-popup-appointment="img" class="popup__title-icon" loading="lazy" src="images/icons/green-check.svg" alt title /> Вы записались на прием </b>
+        <div data-popup-close class="popup__close cross cross--background"></div>
+    </div>
+    <div class="doctor-appointment">
+        <div class="doctor-appointment__left">
+            <div data-popup-appointment="img" class="doctor-appointment__icon">
+                <img src="images/pages/clinic-card/hero/logo.svg" alt title />
+            </div>
+            <div class="doctor-appointment__rating">
+                <img src="images/icons/star-red.svg" alt title />
+                <span data-popup-appointment="rating">4.8</span>
+            </div>
+        </div>
+        <div class="doctor-appointment__content">
+            <div class="doctor-appointment__top">
+                <div data-popup-appointment="img" class="doctor-appointment__icon doctor-appointment__icon--mobile">
+                    <img src="images/pages/clinic-card/hero/logo.svg" alt title />
+                </div>
+                <b data-popup-appointment="name" class="doctor-appointment__name">Клиника персональной медицины La Salute (Ла Салюте)</b>
+                <div data-rating="4.8" class="doctor-appointment__rating doctor-appointment__rating--mobile rating">
+                    <div class="rating__body">
+                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                        <div class="rating__active"></div>
+                    </div>
+                    <b data-popup-appointment="rating" class="rating__value"> 4.8 </b>
+                </div>
+            </div>
+            <div class="doctor-appointment__infos">
+                <div class="doctor-appointment__info-caption">Адрес</div>
+                <div data-popup-appointment="address" class="doctor-appointment__info-content">г. Москва, ул. Рублевское шоссе, д. 99 кор. 1</div>
+                <div class="doctor-appointment__info-caption">Метро</div>
+                <div data-popup-appointment="metros" class="metros">
+                    <div class="metro">
+                        <div class="metro__color metro__color--arbat"></div>
+                        Молодежная
+                    </div>
+                    <div class="metro">
+                        <div class="metro__color metro__color--arbat"></div>
+                        Крылатское
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup__body">
+        <div class="popup__content appointment-success">
+            <div class="appointment-success__patient-info">
+                <div class="appointment-success__item">
+                    <b class="appointment-success__item-caption">Имя</b>
+                    <div data-appointment-name class="appointment-success__item-text">Александр</div>
+                </div>
+                <div class="appointment-success__item">
+                    <b class="appointment-success__item-caption">Фамилия</b>
+                    <div data-appointment-surname class="appointment-success__item-text">Васильев</div>
+                </div>
+                <div class="appointment-success__item">
+                    <b class="appointment-success__item-caption">Дата рождения пациента</b>
+                    <div data-appointment-birthday class="appointment-success__item-text">25.09.1990</div>
+                </div>
+                <div class="appointment-success__item">
+                    <b class="appointment-success__item-caption">Телефон</b>
+                    <div data-appointment-phone class="appointment-success__item-text">+7 (987) 654-32-10</div>
+                </div>
+            </div>
+            <div class="appointment-success__info">
+                <img loading="lazy" src="images/icons/medical-cross.svg" alt title />
+                Мы отправили информацию о приеме в SMS на ваш номер телефона
+            </div>
+            <p>Приходите на прием в назначенное время. Добавьте напоминание в календарь, чтобы не пропустить визит. Если не успеваете, отмените запись, позвонив в клинику.</p>
+        </div>
+        <div class="popup__btns">
+            <button data-popup-close class="popup__btn btn">Хорошо</button>
+        </div>
+    </div>
+</div>
+
+                <div data-popup="appointment-empty-success" class="popup is-hidden">
+    <div class="popup__header">
+        <b class="popup__title"><img class="popup__title-icon" loading="lazy" src="images/icons/green-check.svg" alt title /> Заявка принята</b>
+        <div data-popup-close class="popup__close cross cross--background"></div>
+    </div>
+    <div class="doctor-appointment">
+        <div class="doctor-appointment__left">
+            <div data-popup-appointment="img" class="doctor-appointment__icon">
+                <img src="images/doctors/1.jpg" alt title />
+            </div>
+            <div class="doctor-appointment__rating">
+                <img src="images/icons/star-red.svg" alt title />
+                <span data-popup-appointment="rating">4.8</span>
+            </div>
+        </div>
+        <div class="doctor-appointment__content">
+            <div class="doctor-appointment__top">
+                <div data-popup-appointment="img" class="doctor-appointment__icon doctor-appointment__icon--mobile">
+                    <img src="images/doctors/1.jpg" alt title />
+                </div>
+                <b data-popup-appointment="name" class="doctor-appointment__name">Манохина Дарья Дмитриевна</b>
+                <div data-rating="4.8" class="doctor-appointment__rating doctor-appointment__rating--mobile rating">
+                    <div class="rating__body">
+                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                        <div class="rating__active"></div>
+                    </div>
+                    <b data-popup-appointment="rating" class="rating__value"> 4.8 </b>
+                </div>
+            </div>
+            <div class="doctor-appointment__infos">
+                <div class="doctor-appointment__info-caption">Клиника</div>
+                <div class="doctor-appointment__info-content">Клиника персональной медицины La Salute (Ла Салюте)</div>
+                <div class="doctor-appointment__info-caption">Адрес</div>
+                <div class="doctor-appointment__info-content">г. Москва, ул. Рублевское шоссе, д. 99 кор. 1</div>
+                <div class="doctor-appointment__info-caption">Метро</div>
+                <div class="metros">
+                    <div class="metro">
+                        <div class="metro__color metro__color--arbat"></div>
+                        Молодежная
+                    </div>
+                    <div class="metro">
+                        <div class="metro__color metro__color--arbat"></div>
+                        Крылатское
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup__body">
+        <div class="popup__content appointment-success">
+            <div class="popup__text-block">
+                <p>Оператор свяжется с вами с 8:00 до 22:00 для уточнения деталей приема и подтверждения записи.</p>
+                <p>Спасибо за использование нашего сервиса!</p>
+            </div>
+            <div class="appointment-success__appointment-info">
+                <div class="appointment-success__item">
+                    <b class="appointment-success__item-caption appointment-success__item-caption--with-icon">
+                        <img loading="lazy" src="images/icons/graduate-hat.svg" alt title />
+                        Специальность
+                    </b>
+                    <div data-appointment-speciality class="appointment-success__item-text">Гинеколог-эндокринолог <span class="appointment-success__item-skin">—</span> <b>1500 ₽</b></div>
+                </div>
+            </div>
+            <div class="appointment-success__patient-info">
+                <div class="appointment-success__item">
+                    <b class="appointment-success__item-caption appointment-success__item-caption--with-icon"> <img loading="lazy" src="images/icons/user.svg" alt= title= /> Имя </b>
+                    <div data-appointment-name class="appointment-success__item-text">Александр</div>
+                </div>
+                <div class="appointment-success__item">
+                    <b class="appointment-success__item-caption appointment-success__item-caption--with-icon">
+                        <img loading="lazy" src="images/icons/mobile-phone.svg" alt title />
+                        Телефон
+                    </b>
+                    <div data-appointment-phone class="appointment-success__item-text">+7 (987) 654-32-10</div>
+                </div>
+            </div>
+        </div>
+        <div class="popup__btns">
+            <button data-popup-close class="popup__btn btn">Хорошо</button>
+        </div>
+    </div>
+</div>
+
+                <div data-popup="appointment-empty" class="popup is-hidden">
+    <div class="popup__header">
+        <b class="popup__title">Запись на прием</b>
+        <div data-popup-close class="popup__close cross cross--background"></div>
+    </div>
+    <div class="doctor-appointment">
+        <div class="doctor-appointment__left">
+            <div data-popup-appointment="img" class="doctor-appointment__icon">
+                <img src="images/doctors/1.jpg" alt title />
+            </div>
+            <div class="doctor-appointment__rating">
+                <img src="images/icons/star-red.svg" alt title />
+                <span data-popup-appointment="rating">4.8</span>
+            </div>
+        </div>
+        <div class="doctor-appointment__content">
+            <div class="doctor-appointment__top">
+                <div data-popup-appointment="img" class="doctor-appointment__icon doctor-appointment__icon--mobile">
+                    <img src="images/doctors/1.jpg" alt title />
+                </div>
+                <b data-popup-appointment="name" class="doctor-appointment__name">Манохина Дарья Дмитриевна</b>
+                <div data-rating="4.8" class="doctor-appointment__rating doctor-appointment__rating--mobile rating">
+                    <div class="rating__body">
+                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                        <div class="rating__active"></div>
+                    </div>
+                    <b data-popup-appointment="rating" class="rating__value"> 4.8 </b>
+                </div>
+            </div>
+            <div class="doctor-appointment__infos">
+                <div class="doctor-appointment__info-caption">Клиника</div>
+                <div class="doctor-appointment__info-content">Клиника персональной медицины La Salute (Ла Салюте)</div>
+                <div class="doctor-appointment__info-caption">Адрес</div>
+                <div class="doctor-appointment__info-content">г. Москва, ул. Рублевское шоссе, д. 99 кор. 1</div>
+                <div class="doctor-appointment__info-caption">Метро</div>
+                <div class="metros">
+                    <div class="metro">
+                        <div class="metro__color metro__color--arbat"></div>
+                        Молодежная
+                    </div>
+                    <div class="metro">
+                        <div class="metro__color metro__color--arbat"></div>
+                        Крылатское
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form data-form action="#" class="popup__body">
+        <div class="popup__content form">
+            <div class="form__item form__item--full">
+                <label for="clinic" class="form__item-label">Специальность</label>
+                <div data-dropdown class="dropdown">
+                    <div data-dropdown-btn class="dropdown__btn">
+                        <span data-dropdown-content class="dropdown__btn-content"> Гинеколог-эндокринолог — 900 ₽ </span>
+                        <span class="dropdown__arrow icon-arrow-more"></span>
+                    </div>
+                    <ul data-dropdown-list class="dropdown__list">
+                        <li data-value="Акушер — 900 ₽" class="dropdown__item">
+                            <span data-dropdown-item-content> Акушер — 900 ₽ </span>
+                        </li>
+                        <li data-value="Гинеколог — 1390 ₽" class="dropdown__item">
+                            <span data-dropdown-item-content> Гинеколог — 1390 ₽ </span>
+                        </li>
+                        <li data-value="Гинеколог-эндокринолог — 1500 ₽" class="dropdown__item">
+                            <span data-dropdown-item-content> Гинеколог-эндокринолог — 1500 ₽</span>
+                        </li>
+                    </ul>
+                    <input data-dropdown-input name="speciality" id="специльность" type="text" value="Гинеколог-эндокринолог — 900 ₽" class="dropdown__input _req" required />
+                </div>
+            </div>
+            <div class="form__item form__item--full">
+                <label for="clinic" class="form__item-label">Клиника</label>
+                <div data-dropdown class="dropdown">
+                    <div data-dropdown-btn class="dropdown__btn">
+                        <span data-dropdown-content class="dropdown__btn-content">
+                            <div class="form__clinic">
+                                <p class="form__clinic-name">Медицина и Красота на Павелецкой</p>
+                            </div>
+                        </span>
+                        <span class="dropdown__arrow icon-arrow-more"></span>
+                    </div>
+                    <ul data-dropdown-list class="dropdown__list">
+                        <li data-value="Медицина и Красота на Павелецкой" class="dropdown__item">
+                            <div class="form__clinic">
+                                <span data-dropdown-item-content>
+                                    <p class="form__clinic-name">Медицина и Красота на Павелецкой</p>
+                                </span>
+                                <address class="form__clinic-address">6-й Монетчиковский пер., д. 19</address>
+                            </div>
+                        </li>
+                        <li data-value="Медицинский центр «К Медицина»" class="dropdown__item">
+                            <div class="form__clinic">
+                                <span data-dropdown-item-content>
+                                    <p class="form__clinic-name">Медицинский центр «К Медицина»</p>
+                                </span>
+                                <address class="form__clinic-address">просп. Мира, д. 105, стр. 1</address>
+                            </div>
+                        </li>
+                    </ul>
+                    <input data-dropdown-input name="clinic" id="clinic" type="text" value="Медицина и Красота на Павелецкой" class="dropdown__input _req" required />
+                </div>
+            </div>
+            <div class="form__item">
+                <label for="name" class="form__item-label">Ваше имя</label>
+                <input class="_req" type="text" id="name" name="name" placeholder="Контактное лицо" />
+            </div>
+            <div class="form__item">
+                <label for="phone" class="form__item-label">Телефон для подтверждения</label>
+                <input class="_req" type="tel" name="phone" placeholder="+7 (___) ___-__-__" />
+                <p class="form__item-info">Оператор позвонит вам по этому номеру для подтверждения в течение 10 минут</p>
+            </div>
+        </div>
+        <div class="popup__btns">
+            <button type="reset" data-popup-close class="popup__btn btn btn--border">Отмена</button>
+            <button class="popup__btn--confirm popup__btn btn">Записаться</button>
+        </div>
+        <div class="popup__bottom">
+            <div class="popup__policy policy">
+                <div class="policy__checkbox checkbox">
+                    <input id="policy_1" checked name="policy" type="checkbox" class="checkbox__element" />
+                    <label for="policy_1" class="checkbox__label"></label>
+                </div>
+                <div class="policy__text">Нажимая «Записаться», я принимаю условия<a href="#"> пользовательского соглашения</a> и даю согласие на <a href="#">обработку персональных данных</a>.</div>
+            </div>
+        </div>
+    </form>
+</div>
+
+                <div data-popup="appointment" class="popup is-hidden">
+    <div class="popup__header">
+        <b class="popup__title">Запись на прием</b>
+        <div data-popup-close class="popup__close cross cross--background"></div>
+    </div>
+    <div class="doctor-appointment">
+        <div class="doctor-appointment__left">
+            <div data-popup-appointment="img" class="doctor-appointment__icon">
+                <img src="images/doctors/1.jpg" alt title />
+            </div>
+            <div class="doctor-appointment__rating">
+                <img src="images/icons/star-red.svg" alt title />
+                <span data-popup-appointment="rating">4.8</span>
+            </div>
+        </div>
+        <div class="doctor-appointment__content">
+            <div class="doctor-appointment__top">
+                <div class="doctor-appointment__icon doctor-appointment__icon--mobile">
+                    <img src="images/doctors/1.jpg" alt title />
+                </div>
+                <b data-popup-appointment="name" class="doctor-appointment__name">Манохина Дарья Дмитриевна</b>
+                <div data-rating="4.8" class="doctor-appointment__rating doctor-appointment__rating--mobile rating">
+                    <div class="rating__body">
+                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                        <div class="rating__active"></div>
+                    </div>
+                    <b data-popup-appointment="rating" class="rating__value"> 4.8 </b>
+                </div>
+            </div>
+            <div class="doctor-appointment__infos">
+                <div class="doctor-appointment__info-caption">Клиника</div>
+                <div class="doctor-appointment__info-content">Клиника персональной медицины La Salute (Ла Салюте)</div>
+                <div class="doctor-appointment__info-caption">Адрес</div>
+                <div class="doctor-appointment__info-content">г. Москва, ул. Рублевское шоссе, д. 99 кор. 1</div>
+                <div class="doctor-appointment__info-caption">Метро</div>
+                <div class="metros">
+                    <div class="metro">
+                        <div class="metro__color metro__color--arbat"></div>
+                        Молодежная
+                    </div>
+                    <div class="metro">
+                        <div class="metro__color metro__color--arbat"></div>
+                        Крылатское
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form data-form action="#" class="popup__body">
+        <div class="popup__content form">
+            <div class="form__item form__item--dropdown">
+                <label for="clinic" class="form__item-label">Специальность</label>
+                <div data-dropdown class="dropdown">
+                    <div data-dropdown-btn class="dropdown__btn">
+                        <span data-dropdown-content class="dropdown__btn-content"> Гинеколог-эндокринолог — 900 ₽ </span>
+                        <span class="dropdown__arrow icon-arrow-more"></span>
+                    </div>
+                    <ul data-dropdown-list class="dropdown__list">
+                        <li data-value="Акушер — 900 ₽" class="dropdown__item">
+                            <span data-dropdown-item-content> Акушер — 900 ₽ </span>
+                        </li>
+                        <li data-value="Гинеколог — 1390 ₽" class="dropdown__item">
+                            <span data-dropdown-item-content> Гинеколог — 1390 ₽ </span>
+                        </li>
+                        <li data-value="Гинеколог-эндокринолог — 1500 ₽" class="dropdown__item">
+                            <span data-dropdown-item-content> Гинеколог-эндокринолог — 1500 ₽</span>
+                        </li>
+                    </ul>
+                    <input data-dropdown-input name="speciality" id="специльность" type="text" value="Гинеколог-эндокринолог — 900 ₽" class="dropdown__input _req" required />
+                </div>
+            </div>
+            <div class="form__item form__item--calendar form__item--date-appointment">
+                <label for="date-appointment" class="form__item-label">Дата и время приема</label>
+                <input class="_req" type="text" id="date-appointment" name="date-appointment" placeholder="10 окт., 10:30" readonly />
+                <a href="#" data-popup-btn="appointment-times" class="form__item-calendar-change">Изменить</a>
+            </div>
+            <div class="form__item">
+                <label for="name" class="form__item-label">Имя</label>
+                <input class="_req" type="text" id="name" name="name" placeholder="Контактное лицо" />
+            </div>
+            <div class="form__item">
+                <label for="surname" class="form__item-label">Фамилия</label>
+                <input class="_req" type="text" id="surname" name="surname" placeholder="Фамилия" />
+            </div>
+            <div class="form__item">
+                <label for="date-birthday" class="form__item-label">Дата рождения пациента</label>
+                <div class="input">
+                    <div class="input__icon">
+                        <img src="images/icons/calendar.svg" alt title />
+                    </div>
+                    <input
+                        data-calendar="empty"
+                        data-calendar-all
+                        class="input__element input__element--calendar input__element--icon _req"
+                        placeholder="дд-мм--гггг"
+                        type="text"
+                        readonly
+                        name="date-birthday"
+                        id="date-birthday"
+                    />
+                </div>
+            </div>
+            <div class="form__item">
+                <label for="phone" class="form__item-label">Телефон для подтверждения</label>
+                <input class="_req" type="tel" name="phone" placeholder="+7 (___) ___-__-__" />
+                <p class="form__item-info">На этот номер вы получите SMS с кодом подтверждения и информацию о записи</p>
+                <a href="#" class="form__resend is-hidden">Отправить еще раз через 25 сек</a>
+            </div>
+        </div>
+        <div class="popup__btns">
+            <div class="popup__code is-hidden">
+                <b class="popup__code-title">Код из SMS</b>
+                <input class="popup__code-input" type="text" id="code" name="code" placeholder="786435" />
+            </div>
+            <button class="popup__btn popup__btn--confirm is-hidden btn">Подтвердить</button>
+            <button type="reset" data-popup-close class="popup__btn btn btn--border">Отмена</button>
+            <button data-popup-send class="popup__btn btn">Записаться</button>
+        </div>
+        <div class="popup__bottom">
+            <div class="popup__policy policy">
+                <div class="policy__checkbox checkbox">
+                    <input id="policy_1" checked name="policy" type="checkbox" class="checkbox__element" />
+                    <label for="policy_1" class="checkbox__label"></label>
+                </div>
+                <div class="policy__text">Нажимая «Записаться», я принимаю условия<a href="#"> пользовательского соглашения</a> и даю согласие на <a href="#">обработку персональных данных</a>.</div>
+            </div>
+        </div>
+    </form>
+</div>
+
+                <div data-popup="appointment-success" class="popup is-hidden">
+    <div class="popup__header">
+        <b class="popup__title"> <img data-popup-appointment="img" class="popup__title-icon" loading="lazy" src="images/icons/green-check.svg" alt title /> Вы записались на прием </b>
+        <div data-popup-close class="popup__close cross cross--background"></div>
+    </div>
+    <div class="doctor-appointment">
+        <div class="doctor-appointment__left">
+            <div data-popup-appointment="img" class="doctor-appointment__icon">
+                <img src="images/doctors/1.jpg" alt title />
+            </div>
+            <div class="doctor-appointment__rating">
+                <img src="images/icons/star-red.svg" alt title />
+                <span data-popup-appointment="rating">4.8</span>
+            </div>
+        </div>
+        <div class="doctor-appointment__content">
+            <div class="doctor-appointment__top">
+                <div data-popup-appointment="img" class="doctor-appointment__icon doctor-appointment__icon--mobile">
+                    <img src="images/doctors/1.jpg" alt title />
+                </div>
+                <b data-popup-appointment="name" class="doctor-appointment__name">Манохина Дарья Дмитриевна</b>
+                <div data-rating="4.8" class="doctor-appointment__rating doctor-appointment__rating--mobile rating">
+                    <div class="rating__body">
+                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                        <div class="rating__active"></div>
+                    </div>
+                    <b data-popup-appointment="rating" class="rating__value"> 4.8 </b>
+                </div>
+            </div>
+            <div class="doctor-appointment__infos">
+                <div class="doctor-appointment__info-caption">Клиника</div>
+                <div class="doctor-appointment__info-content">Клиника персональной медицины La Salute (Ла Салюте)</div>
+                <div class="doctor-appointment__info-caption">Адрес</div>
+                <div class="doctor-appointment__info-content">г. Москва, ул. Рублевское шоссе, д. 99 кор. 1</div>
+                <div class="doctor-appointment__info-caption">Метро</div>
+                <div class="metros">
+                    <div class="metro">
+                        <div class="metro__color metro__color--arbat"></div>
+                        Молодежная
+                    </div>
+                    <div class="metro">
+                        <div class="metro__color metro__color--arbat"></div>
+                        Крылатское
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup__body">
+        <div class="popup__content appointment-success">
+            <div class="appointment-success__appointment-info">
+                <div class="appointment-success__item">
+                    <b class="appointment-success__item-caption">Специальность</b>
+                    <div data-appointment-speciality class="appointment-success__item-text">Гинеколог-эндокринолог <span class="appointment-success__item-skin">—</span> <b>1500 ₽</b></div>
+                </div>
+                <div class="appointment-success__item">
+                    <b class="appointment-success__item-caption">Дата и время приема</b>
+                    <div data-appointment-date class="appointment-success__item-text">10 октября 2022, 10:30</div>
+                </div>
+            </div>
+            <div class="appointment-success__patient-info">
+                <div class="appointment-success__item">
+                    <b class="appointment-success__item-caption">Имя</b>
+                    <div data-appointment-name class="appointment-success__item-text">Александр</div>
+                </div>
+                <div class="appointment-success__item">
+                    <b class="appointment-success__item-caption">Фамилия</b>
+                    <div data-appointment-surname class="appointment-success__item-text">Васильев</div>
+                </div>
+                <div class="appointment-success__item">
+                    <b class="appointment-success__item-caption">Дата рождения пациента</b>
+                    <div data-appointment-birthday class="appointment-success__item-text">25.09.1990</div>
+                </div>
+                <div class="appointment-success__item">
+                    <b class="appointment-success__item-caption">Телефон</b>
+                    <div data-appointment-phone class="appointment-success__item-text">+7 (987) 654-32-10</div>
+                </div>
+            </div>
+            <div class="appointment-success__info">
+                <img loading="lazy" src="images/icons/medical-cross.svg" alt title />
+                Мы отправили информацию о приеме в SMS на ваш номер телефона
+            </div>
+            <p>Приходите на прием в назначенное время. Добавьте напоминание в календарь, чтобы не пропустить визит. Если не успеваете, отмените запись, позвонив в клинику.</p>
+        </div>
+        <div class="popup__btns">
+            <button data-popup-close class="popup__btn btn">Хорошо</button>
+        </div>
+    </div>
+</div>
+
+                <div data-popup="appointment-times" class="popup is-hidden">
+    <div class="popup__header popup__header--back">
+        <div data-popup-btn="appointment" class="popup__back arrow arrow--gray arrow--prev">
+            <span class="icon-arrow-more"></span>
+        </div>
+        <b class="popup__title">Изменить дату и время</b>
+        <div data-popup-close class="popup__close cross cross--background"></div>
+    </div>
+    <div class="doctor-appointment">
+        <div class="doctor-appointment__left">
+            <div data-popup-appointment="img" class="doctor-appointment__icon">
+                <img src="images/doctors/1.jpg" alt title />
+            </div>
+            <div class="doctor-appointment__rating">
+                <img src="images/icons/star-red.svg" alt title />
+                <span data-popup-appointment="rating">4.8</span>
+            </div>
+        </div>
+        <div class="doctor-appointment__content">
+            <div class="doctor-appointment__top">
+                <div data-popup-appointment="img" class="doctor-appointment__icon doctor-appointment__icon--mobile">
+                    <img src="images/doctors/1.jpg" alt title />
+                </div>
+                <b data-popup-appointment="name" class="doctor-appointment__name">Манохина Дарья Дмитриевна</b>
+                <div data-rating="4.8" class="doctor-appointment__rating doctor-appointment__rating--mobile rating">
+                    <div class="rating__body">
+                        <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                        <div class="rating__active"></div>
+                    </div>
+                    <b data-popup-appointment="rating" class="rating__value"> 4.8 </b>
+                </div>
+            </div>
+            <div class="doctor-appointment__infos">
+                <div class="doctor-appointment__info-caption">Клиника</div>
+                <div class="doctor-appointment__info-content">Клиника персональной медицины La Salute (Ла Салюте)</div>
+                <div class="doctor-appointment__info-caption">Адрес</div>
+                <div class="doctor-appointment__info-content">г. Москва, ул. Рублевское шоссе, д. 99 кор. 1</div>
+                <div class="doctor-appointment__info-caption">Метро</div>
+                <div class="metros">
+                    <div class="metro">
+                        <div class="metro__color metro__color--arbat"></div>
+                        Молодежная
+                    </div>
+                    <div class="metro">
+                        <div class="metro__color metro__color--arbat"></div>
+                        Крылатское
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form data-form id="appointment-date" action="#" class="popup__body">
+        <div class="appointment-times popup__content form">
+            <div data-popup-btn="appointment" class="appointment-times__return">
+                <img loading="lazy" src="images/icons/arrow-left.svg" alt title />
+                Отмена
+            </div>
+            <div class="appointment-times__dates dates">
+                <div class="dates__prev arrow arrow--prev arrow--small"><span class="icon-arrow-more"></span></div>
+                <div class="swiper slider-dates">
+                    <div data-radios class="swiper-wrapper slider-dates__wrapper"></div>
+                </div>
+                <div class="dates__next arrow arrow--next arrow--small"><span class="icon-arrow-more"></span></div>
+            </div>
+            <div class="appointment-times__schedule schedule">
+                <b class="schedule__date"> Пятница, 14 октября: </b>
+                <div data-radios class="schedule__body mobile-overflow">
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="09:30" name="time-appointment" class="radio__input" />
+                            09:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label"><input type="radio" value="10:00" name="time-appointment" class="radio__input" /> 10:00 </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="10:30" name="time-appointment" class="radio__input" />
+                            10:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label"> <input type="radio" value="11:00" name="time-appointment" class="radio__input" /> 11:00 </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="11:30" name="time-appointment" class="radio__input" />
+                            11:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="12:00" name="time-appointment" class="radio__input" />
+                            12:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="12:30" name="time-appointment" class="radio__input" />
+                            12:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="14:00" name="time-appointment" class="radio__input" />
+                            14:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="14:30" name="time-appointment" class="radio__input" />
+                            14:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="15:00" name="time-appointment" class="radio__input" />
+                            15:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="15:30" name="time-appointment" class="radio__input" />
+                            15:30
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label">
+                            <input type="radio" value="16:00" name="time-appointment" class="radio__input" />
+                            16:00
+                        </label>
+                    </div>
+                    <div class="schedule__item radio">
+                        <label class="radio__label"> <input type="radio" value="17:00" name="time-appointment" class="radio__input" /> 17:00 </label>
+                    </div>
+                </div>
+            </div>
+            <button class="form__btn is-hidden"></button>
+        </div>
+    </form>
+</div>
+
+            </div>
+        </div>
+        <script defer src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
+        <script defer src="js/swiper-bundle.min.js"></script>
+        <script defer src="js/air-datepicker.js"></script>
+        <script defer src="js/app.js"></script>
+    </body>
+</html>

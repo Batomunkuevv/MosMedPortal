@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8" />
+    <title>Main page</title>
+    <meta name="description" content="MosMedPortal" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" href="images/favicon.ico" />
+    
+        <link rel="stylesheet" href="files/swiper-bundle.min.css">
+    
+        <link rel="stylesheet" href="files/air-datepicker.css">
+    
+        <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+    <body>
+        <div class="wrapper">
+            <header class="site-header">
+    <div class="container">
+        <div class="site-header__body">
+            <a href="#" class="site-header__logo logo">
+                <img src="images/logo.svg" alt title />
+            </a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item menu__item--active"><a href="#" class="menu__link">Клиники</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Врачи</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Диагностика</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Заболевания</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Симптомы</a></li>
+                </ul>
+            </nav>
+            <div class="site-header__support support">
+                <div class="support__icon">
+                    <img src="images/icons/phone.svg" alt title />
+                </div>
+                <a href="tel:+74991233456" class="support__number"><b>8 (499) 123-34-56</b></a>
+                <div class="support__caption">Справочная служба</div>
+            </div>
+            <div class="site-header__burger burger">
+                <span class="burger__line burger__line--cross"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line burger__line--cross"></span>
+            </div>
+        </div>
+    </div>
+    <div class="site-header__panel">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item menu__item--active"><a href="#" class="menu__link">Клиники</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Врачи</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Диагностика</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Заболевания</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Симптомы</a></li>
+            </ul>
+        </nav>
+        <div class="site-header__support support">
+            <div class="support__icon">
+                <img src="images/icons/phone.svg" alt title />
+            </div>
+            <a href="tel:+74991233456" class="support__number"><b>8 (499) 123-34-56</b></a>
+            <div class="support__caption">Справочная служба</div>
+        </div>
+    </div>
+</header>
+
+            <main class="page">
+                <section class="main-hero">
+    <div class="container">
+        <div class="main-hero__body">
+            <h1 class="main-hero__title">
+                Найти
+                <span class="main-hero__changing-text">эндокринолога</span>
+                в Москве
+            </h1>
+            <form action="#" class="form-search">
+                <div class="form-search__item form-search__item--search">
+                    <div class="input">
+                        <div class="input__icon">
+                            <img src="images/icons/loop.svg" alt title />
+                        </div>
+                        <input class="input__element input__element--icon" type="search" name="search" placeholder="Поиск по врачу, клинике, болезни, услуге" />
+                    </div>
+                </div>
+                <div class="form-search__separator"></div>
+                <div class="form-search__item form-search__item--location">
+                    <div class="input">
+                        <div class="input__icon">
+                            <img src="images/icons/location.svg" alt title />
+                        </div>
+                        <input class="input__element input__element--arrow input__element--icon" type="text" name placeholder="Метро или район" />
+                        <span class="input__arrow icon-arrow-more"></span>
+                    </div>
+                </div>
+                <div class="form-search__separator"></div>
+                <div class="form-search__item form-search__item--date">
+                    <div class="input">
+                        <div class="input__icon">
+                            <img src="images/icons/calendar.svg" alt title />
+                        </div>
+                        <input data-calendar class="input__element input__element--calendar input__element--icon" type="text" readonly name="date" />
+                    </div>
+                </div>
+                <button class="form-search__btn btn">Найти</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+                <div class="actions">
+    <div class="container">
+        <div class="actions__items">
+            <div class="actions__body">
+                <a href="#" class="actions__item">
+                    <div class="actions__item-icon">
+                        <img loading="lazy" src="images/icons/actions/hospital.svg" alt title />
+                    </div>
+                    <b class="actions__item-title"
+                        >Прием врача<br />
+                        в клинике</b
+                    >
+                    <p class="actions__item-text">
+                        Врачи с проверенными отзывами в любом районе<br />
+                        города и быстрая запись на нужное время
+                    </p>
+                </a>
+                <a href="#" class="actions__item actions__item--orange">
+                    <div class="actions__item-icon">
+                        <img loading="lazy" src="images/icons/actions/ambulance.svg" alt title />
+                    </div>
+                    <b class="actions__item-title"
+                        >Выезд врача<br />
+                        на дом</b
+                    >
+                    <p class="actions__item-text">Быстрый выезд врача с проверенными отзывами в любой район города</p>
+                </a>
+                <a href="#" class="actions__item actions__item--sky">
+                    <div class="actions__item-icon">
+                        <img loading="lazy" src="images/icons/actions/medical-cross.svg" alt title/>
+                    </div>
+                    <b class="actions__item-title"
+                        >Медицинские<br />
+                        услуги</b
+                    >
+                    <p class="actions__item-text">
+                        Медицинские и косметологические услуги<br />
+                        в клинике и на дому
+                    </p>
+                </a>
+                <a href="#" class="actions__item actions__item--purple">
+                    <div class="actions__item-icon">
+                        <img loading="lazy" src="images/icons/actions/notes.svg" alt title />
+                    </div>
+                    <b class="actions__item-title">Справочник заболеваний</b>
+                    <p class="actions__item-text">Единый список различных заболеваний</p>
+                </a>
+                <a href="#" class="actions__item actions__item--green">
+                    <div class="actions__item-icon">
+                        <img loading="lazy" src="images/icons/actions/list.svg" alt title />
+                    </div>
+                    <b class="actions__item-title">База данных cимптомов</b>
+                    <p class="actions__item-text">Поиск по самой полной базе симптомов</p>
+                </a>
+                <a href="#" class="actions__item actions__item--pink">
+                    <div class="actions__item-icon">
+                        <img loading="lazy" src="images/icons/actions/heart.svg" alt title />
+                    </div>
+                    <b class="actions__item-title">О компании МосМедПортал</b>
+                    <p class="actions__item-text">Сервис поиска врачей в Москве и Московской области</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <section class="about sky-section">
+    <div class="container">
+        <div class="about__body sky-section__body">
+            <div class="about__content">
+                <h3>Заботимся о вашем здоровье<br> c 2000 года</h3>
+            <p>Мы помогли миллионам людей получить помощь<br> и продолжаем повышать качество медицинских услуг</p>
+            <div class="about__metrics">
+                <div class="about__metrics-item">
+                    <div class="about__metrics-icon">
+                        <img  loading='lazy' src="images/icons/blue-location.svg" alt title>
+                    </div>
+                    <b>985 клиник</b>
+                </div>
+                <div class="about__metrics-item">
+                    <div class="about__metrics-icon">
+                        <img  loading='lazy' src="images/icons/star.svg" alt title>
+                    </div>
+                    <b>875 109 специалистов</b>
+                </div>
+                <div class="about__metrics-item">
+                    <div class="about__metrics-icon">
+                        <img  loading='lazy' src="images/icons/heart.svg" alt title>
+                    </div>
+                    <b>6,4 млн отзывов</b>
+                </div>
+                <div class="about__metrics-item">
+                    <div class="about__metrics-icon">
+                        <img  loading='lazy' src="images/icons/messages.svg" alt title>
+                    </div>
+                    <b>181 510 услуг</b>
+                </div>
+            </div>
+            </div>
+            <div class="about__img">
+                <picture>
+                    <source srcset="images/blocks/about/peoples-mobile.svg" media="(max-width: 768px)">
+                    <img  loading='lazy' src="images/blocks/about/peoples.svg" alt title>
+                </picture>
+            </div>
+        </div>
+    </div>
+</section>
+
+                <section class="section-with-slider">
+    <div class="container">
+        <div class="section-with-slider__header">
+            <h2>Популярные специалисты</h2>
+            <div class="section-with-slider__navigation">
+                <div class="arrow arrow--prev"><span class="icon-arrow-more"></span></div>
+                <div class="arrow arrow--next"><span class="icon-arrow-more"></span></div>
+            </div>
+        </div>
+        <div class="swiper swiper-main">
+            <div class="swiper-main__wrapper swiper-wrapper">
+                <div class="swiper-main__slide swiper-slide">
+                    <div class="popular-doctor">
+                        <div class="popular-doctor__body">
+                            <div class="popular-doctor__left">
+                                <a href="#" class="popular-doctor__icon popular-doctor__icon--desktop">
+                                    <img loading="lazy" src="images/doctors/1.jpg" alt title />
+                                </a>
+                                <div data-rating="4.8" class="popular-doctor__rating rating">
+                                    <div class="rating__body">
+                                        <img loading="lazy" src="images/icons/stars-empty.svg" />
+                                        <div class="rating__active"></div>
+                                    </div>
+                                    <b class="rating__value"> 4.8 </b>
+                                </div>
+                                <a href="#" class="link-reviews">
+                                    <img loading="lazy" src="images/icons/messages-blue.svg" />
+                                    <b>68 отзывов</b>
+                                </a>
+                            </div>
+                            <div class="popular-doctor__content">
+                                <div class="popular-doctor__top">
+                                    <a href="#" class="popular-doctor__icon popular-doctor__icon--mobile">
+                                        <img loading="lazy" src="images/doctors/1.jpg" alt title />
+                                    </a>
+                                    <ul class="popular-doctor__specialties">
+                                        <li class="popular-doctor__specialties-speciality"><a href="#">Гинеколог</a></li>
+                                        <li class="popular-doctor__specialties-speciality"><a href="#">Акушер врач УЗИ</a></li>
+                                        <li class="popular-doctor__specialties-speciality"><a href="#">Акушер врач УЗИ</a></li>
+                                        <li class="popular-doctor__specialties-more">+4</li>
+                                    </ul>
+                                    <a href="#" class="popular-doctor__name"> <b>Манохина Дарья Дмитриевна</b> </a>
+                                </div>
+                                <ul class="popular-doctor__features features">
+                                    <li class="feature">
+                                        <div class="feature__icon">
+                                            <img loading="lazy" src="images/icons/features/clock.svg" />
+                                        </div>
+                                        <div class="feature__text">Стаж 23 года</div>
+                                    </li>
+                                    <li class="feature feature--orange">
+                                        <div class="feature__icon">
+                                            <img loading="lazy" src="images/icons/features/star.svg" />
+                                        </div>
+                                        <div class="feature__text">Врач высшей категории</div>
+                                    </li>
+                                    <li class="feature feature--green">
+                                        <div class="feature__icon">
+                                            <img loading="lazy" src="images/icons/features/hat.svg" />
+                                        </div>
+                                        <div class="feature__text">Кандидат медицинских наук</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-main__slide swiper-slide">
+                    <div class="popular-doctor">
+                        <div class="popular-doctor__body">
+                            <div class="popular-doctor__left">
+                                <a href="#" class="popular-doctor__icon popular-doctor__icon--desktop">
+                                    <img loading="lazy" src="images/doctors/2.jpg" alt title />
+                                </a>
+                                <div data-rating="4.7" class="popular-doctor__rating rating">
+                                    <div class="rating__body">
+                                        <img loading="lazy" src="images/icons/stars-empty.svg" />
+                                        <div class="rating__active"></div>
+                                    </div>
+                                    <b class="rating__value"> 4.7 </b>
+                                </div>
+                                <a href="#" class="link-reviews">
+                                    <img loading="lazy" src="images/icons/messages-blue.svg" />
+                                    <b>233 отзыва</b>
+                                </a>
+                            </div>
+                            <div class="popular-doctor__content">
+                                <div class="popular-doctor__top">
+                                    <a href="#" class="popular-doctor__icon popular-doctor__icon--mobile">
+                                        <img loading="lazy" src="images/doctors/2.jpg" alt title />
+                                    </a>
+                                    <ul class="popular-doctor__specialties">
+                                        <li class="popular-doctor__specialties-speciality"><a href="#">Акушер</a></li>
+                                        <li class="popular-doctor__specialties-speciality"><a href="#">Гинеколог</a></li>
+                                        <li class="popular-doctor__specialties-speciality"><a href="#">Гинеколог-эндокринолог</a></li>
+                                        <li class="popular-doctor__specialties-more">+4</li>
+                                    </ul>
+                                    <a href="#" class="popular-doctor__name"> <b>Хангельдова Карина Григорьевна</b> </a>
+                                </div>
+                                <ul class="popular-doctor__features features">
+                                    <li class="feature">
+                                        <div class="feature__icon">
+                                            <img loading="lazy" src="images/icons/features/clock.svg" />
+                                        </div>
+                                        <div class="feature__text">Стаж 30 лет</div>
+                                    </li>
+                                    <li class="feature feature--orange">
+                                        <div class="feature__icon">
+                                            <img loading="lazy" src="images/icons/features/star.svg" />
+                                        </div>
+                                        <div class="feature__text">Врач высшей категории</div>
+                                    </li>
+                                    <li class="feature feature--green">
+                                        <div class="feature__icon">
+                                            <img loading="lazy" src="images/icons/features/hat.svg" />
+                                        </div>
+                                        <div class="feature__text">Кандидат медицинских наук</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination swiper-main__pagination"></div>
+        </div>
+    </div>
+</section>
+
+                <section class="section-with-slider">
+    <div class="container">
+        <div class="section-with-slider__header section-with-slider__header--clinics">
+            <h2>Популярные клиники</h2>
+            <div class="section-with-slider__navigation">
+                <div class="arrow arrow--prev"><span class="icon-arrow-more"></span></div>
+                <div class="arrow arrow--next"><span class="icon-arrow-more"></span></div>
+            </div>
+        </div>
+        <div class="swiper swiper-main">
+            <div class="swiper-main__wrapper swiper-wrapper">
+                <div class="swiper-main__slide swiper-slide">
+                    <div class="clinic-card">
+    <div class="clinic-card__container">
+        <div class="clinic-card__top">
+            <div class="clinic-card__top-left">
+                <a href="#" class="clinic-card__logo">
+                    <picture>
+                        <source srcset="images/clinics/paliha-mobile.svg" media="(max-width: 768px)" />
+                        <img loading="lazy" src="images/clinics/paliha.svg" alt title />
+                    </picture>
+                </a>
+                <div class="clinic-card__rating">
+                    <img loading="lazy" src="images/icons/star-rating.svg" />
+                    <b class="clinic-card__rating-value">4.8</b>
+                </div>
+            </div>
+
+            <a href="#" class="clinic-card__name"> <b>Медицинский центр Палиха </b></a>
+            <div class="clinic-card__category">Многопрофильный медицинский центр</div>
+            <ul class="clinic-card__info">
+                
+                <li class="clinic-card__info-item">11 врачей</li>
+                
+                <li class="clinic-card__info-item">Оплата наличными и картами</li>
+                
+                <li class="clinic-card__info-item">Большая парковка</li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="clinic-card__center">
+        <div data-rating="4.8" class="clinic-card__stars rating">
+            <div class="rating__body">
+                <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                <div class="rating__active"></div>
+            </div>
+            <b class="rating__value"> 4.8 </b>
+        </div>
+        <a href="#" class="link-reviews">
+            <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+            <b>68 отзывов</b>
+        </a>
+    </div>
+    <div class="clinic-card__bottom place-info">
+        <div class="place-info__contacts">
+            <div class="place-info__contacts-icon">
+                <img loading="lazy" src="images/icons/location.svg" alt title />
+            </div>
+            <div class="place-info__contacts-body">
+                <address class="place-info__address">г. Москва, ул. Палиха, д. 13/1</address>
+                <a href="tel:+74996543210" class="place-info__phone"><b>8 (499) 519-32-88</b></a>
+            </div>
+        </div>
+        <div class="metros"> <div href="#" class="metro--distance metro">
+    <span class="metro__color metro__color--serpuhov"></span>Менделеевская
+    
+        <div class="metro__distance">570 м</div>
+    
+</div>  <div href="#" class="metro--distance metro">
+    <span class="metro__color metro__color--kolcevaya"></span>Новослободская
+    
+        <div class="metro__distance">660 м</div>
+    
+</div> </div>
+    </div>
+</div>
+
+                </div>
+                <div class="swiper-main__slide swiper-slide">
+                    <div class="clinic-card">
+    <div class="clinic-card__container">
+        <div class="clinic-card__top">
+            <div class="clinic-card__top-left">
+                <a href="#" class="clinic-card__logo">
+                    <picture>
+                        <source srcset="images/clinics/euromed-mobile.svg" media="(max-width: 768px)" />
+                        <img loading="lazy" src="images/clinics/euromed.svg" alt title />
+                    </picture>
+                </a>
+                <div class="clinic-card__rating">
+                    <img loading="lazy" src="images/icons/star-rating.svg" />
+                    <b class="clinic-card__rating-value">4.7</b>
+                </div>
+            </div>
+
+            <a href="#" class="clinic-card__name"> <b>Евромед </b></a>
+            <div class="clinic-card__category">Многопрофильный медицинский центр</div>
+            <ul class="clinic-card__info">
+                
+                <li class="clinic-card__info-item">11 врачей</li>
+                
+                <li class="clinic-card__info-item">Оплата наличными и картами</li>
+                
+                <li class="clinic-card__info-item">Большая парковка</li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="clinic-card__center">
+        <div data-rating="4.7" class="clinic-card__stars rating">
+            <div class="rating__body">
+                <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                <div class="rating__active"></div>
+            </div>
+            <b class="rating__value"> 4.7 </b>
+        </div>
+        <a href="#" class="link-reviews">
+            <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+            <b>68 отзывов</b>
+        </a>
+    </div>
+    <div class="clinic-card__bottom place-info">
+        <div class="place-info__contacts">
+            <div class="place-info__contacts-icon">
+                <img loading="lazy" src="images/icons/location.svg" alt title />
+            </div>
+            <div class="place-info__contacts-body">
+                <address class="place-info__address">г. Москва, ул. Красина, д. 14, стр. 2</address>
+                <a href="tel:+74996543210" class="place-info__phone"><b>8 (499) 519-32-88</b></a>
+            </div>
+        </div>
+        <div class="metros"> <div href="#" class="metro--distance metro">
+    <span class="metro__color metro__color--zamoskvoretskaya"></span>Маяковская
+    
+        <div class="metro__distance">870 м</div>
+    
+</div>  <div href="#" class="metro--distance metro">
+    <span class="metro__color metro__color--tagansk"></span>Народное ополчение
+    
+        <div class="metro__distance">1,3 км</div>
+    
+</div> </div>
+    </div>
+</div>
+
+                </div>
+                <div class="swiper-main__slide swiper-slide">
+                    <div class="clinic-card">
+    <div class="clinic-card__container">
+        <div class="clinic-card__top">
+            <div class="clinic-card__top-left">
+                <a href="#" class="clinic-card__logo">
+                    <picture>
+                        <source srcset="images/clinics/paliha-mobile.svg" media="(max-width: 768px)" />
+                        <img loading="lazy" src="images/clinics/moscow.svg" alt title />
+                    </picture>
+                </a>
+                <div class="clinic-card__rating">
+                    <img loading="lazy" src="images/icons/star-rating.svg" />
+                    <b class="clinic-card__rating-value">4.9</b>
+                </div>
+            </div>
+
+            <a href="#" class="clinic-card__name"> <b>Московская Клиника </b></a>
+            <div class="clinic-card__category">Многопрофильный медицинский центр</div>
+            <ul class="clinic-card__info">
+                
+                <li class="clinic-card__info-item">45 врачей</li>
+                
+                <li class="clinic-card__info-item">Оплата наличными и картами</li>
+                
+                <li class="clinic-card__info-item">Большая парковка</li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="clinic-card__center">
+        <div data-rating="4.9" class="clinic-card__stars rating">
+            <div class="rating__body">
+                <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                <div class="rating__active"></div>
+            </div>
+            <b class="rating__value"> 4.9 </b>
+        </div>
+        <a href="#" class="link-reviews">
+            <img loading="lazy" src="images/icons/messages-blue.svg" alt title />
+            <b>68 отзывов</b>
+        </a>
+    </div>
+    <div class="clinic-card__bottom place-info">
+        <div class="place-info__contacts">
+            <div class="place-info__contacts-icon">
+                <img loading="lazy" src="images/icons/location.svg" alt title />
+            </div>
+            <div class="place-info__contacts-body">
+                <address class="place-info__address">г. Москва, ул. Кожевническая, д.1Б, с1</address>
+                <a href="tel:+74996543210" class="place-info__phone"><b>8 (499) 519-32-88</b></a>
+            </div>
+        </div>
+        <div class="metros"> <div href="#" class="metro--distance metro">
+    <span class="metro__color metro__color--lublino"></span>Марьина Роща
+    
+        <div class="metro__distance">570 м</div>
+    
+</div>  <div href="#" class="metro--distance metro">
+    <span class="metro__color metro__color--kahovskaya"></span>Савеловская
+    
+        <div class="metro__distance">660 м</div>
+    
+</div> </div>
+    </div>
+</div>
+
+                </div>
+            </div>
+            <div class="swiper-pagination swiper-main__pagination"></div>
+        </div>
+    </div>
+</section>
+
+                <section class="services">
+    <div class="container">
+        <div data-fold class="services__block">
+            <h2>Специализации врачей</h2>
+            <div class="services__body">
+                <ul class="services__column">
+                    <li class="services__item">
+                        <a href="#" class="services__link">Акушерство</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Венерология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Гастроэнтерология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Гинекология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Косметология</a>
+                    </li>
+                </ul>
+                <ul class="services__column">
+                    <li class="services__item">
+                        <a href="#" class="services__link">Терапия</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Урология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Флебология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Хирургия</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Вертебрология</a>
+                    </li>
+                </ul>
+                <ul class="services__column">
+                    <li class="services__item">
+                        <a href="#" class="services__link">Отоларингология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Маммология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Венерология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Мануальная терапия</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Офтальмология</a>
+                    </li>
+                </ul>
+                <ul class="services__column">
+                    <li class="services__item">
+                        <a href="#" class="services__link">Рентгенология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Флебология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Урология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Терапия</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Вертебрология</a>
+                    </li>
+                </ul>
+            </div>
+            <div data-fold-content class="services__folded">
+                <ul class="services__column">
+                    <li class="services__item">
+                        <a href="#" class="services__link">Акушерство</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Венерология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Гастроэнтерология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Гинекология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Косметология</a>
+                    </li>
+                </ul>
+                <ul class="services__column">
+                    <li class="services__item">
+                        <a href="#" class="services__link">Терапия</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Урология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Флебология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Гинекология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Вертебрология</a>
+                    </li>
+                </ul>
+                <ul class="services__column">
+                    <li class="services__item">
+                        <a href="#" class="services__link">Отоларингология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Маммология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Венерология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Мануальная терапия</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Офтальмология</a>
+                    </li>
+                </ul>
+                <ul class="services__column">
+                    <li class="services__item">
+                        <a href="#" class="services__link">Рентгенология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Флебология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Урология</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Терапия</a>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Вертебрология</a>
+                    </li>
+                </ul>
+            </div>
+            <button data-fold-btn class="services__more more">
+                <span data-open-text="Показать еще" data-close-text="Свернуть" class="more__text">Показать еще</span> <span class="more__arrow icon-arrow-more"></span>
+            </button>
+        </div>
+        <div data-fold class="services__block">
+            <h2>Популярные процедуры</h2>
+            <div class="services__body">
+                <ul class="services__column">
+                    <li class="services__item">
+                        <a href="#" class="services__link">ЛОР услуги</a>
+                        <div class="services__price">от 4200 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Массаж</a>
+                        <div class="services__price">от 800 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Стоматологические услуги</a>
+                        <div class="services__price">от 1500 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Флебология</a>
+                        <div class="services__price">от 2290 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Косметологические услуги</a>
+                        <div class="services__price">от 6000 ₽</div>
+                    </li>
+                </ul>
+                <ul class="services__column">
+                    <li class="services__item">
+                        <a href="#" class="services__link">Гинекологические услуги</a>
+                        <div class="services__price">от 500 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Лечение глаз</a>
+                        <div class="services__price">от 11000 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Прививки</a>
+                        <div class="services__price">от 450 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Проктологические услуги</a>
+                        <div class="services__price">от 9000 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Физиотерапия</a>
+                        <div class="services__price">от 1100 ₽</div>
+                    </li>
+                </ul>
+                <ul class="services__column">
+                    <li class="services__item">
+                        <a href="#" class="services__link">ЭКО</a>
+                        <div class="services__price">от 1600 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Аллергологические услуги</a>
+                        <div class="services__price">от 1700 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Хирургические услуги</a>
+                        <div class="services__price">от 1000 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Наркологические услуги</a>
+                        <div class="services__price">от 100 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Андрологические услуги</a>
+                        <div class="services__price">от 1050 ₽</div>
+                    </li>
+                </ul>
+            </div>
+            <div data-fold-content class="services__folded">
+                <ul class="services__column">
+                    <li class="services__item">
+                        <a href="#" class="services__link">MAR-тест</a>
+                        <div class="services__price">от 4200 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Анализ секрета простаты</a>
+                        <div class="services__price">от 800 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Удаление кисты бартолиновой железы</a>
+                        <div class="services__price">от 1500 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Лечебный массаж простаты</a>
+                        <div class="services__price">от 2290 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Перевязка маточных труб</a>
+                        <div class="services__price">от 6000 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Противозачаточное кольцо</a>
+                        <div class="services__price">от 500 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Лапароскопия миомы матки</a>
+                        <div class="services__price">от 11000 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Биопсия шейки матки</a>
+                        <div class="services__price">от 450 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Лапароскопия диагностическая в гинекологии</a>
+                        <div class="services__price">от 9000 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Конизация шейки матки</a>
+                        <div class="services__price">от 1100 ₽</div>
+                    </li>
+                </ul>
+                <ul class="services__column">
+                    <li class="services__item">
+                        <a href="#" class="services__link">Противозачаточное кольцо</a>
+                        <div class="services__price">от 500 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Лапароскопия миомы матки</a>
+                        <div class="services__price">от 11 000 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Биопсия шейки матки</a>
+                        <div class="services__price">от 450 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Лапароскопия диагностическая в гинекологии</a>
+                        <div class="services__price">от 9000 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Конизация шейки матки</a>
+                        <div class="services__price">от 1100 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">MAR-тест</a>
+                        <div class="services__price">от 4200 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Анализ секрета простаты</a>
+                        <div class="services__price">от 800 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Удаление кисты бартолиновой железы</a>
+                        <div class="services__price">от 1500 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Лечебный массаж простаты</a>
+                        <div class="services__price">от 2290 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Перевязка маточных труб</a>
+                        <div class="services__price">от 6000 ₽</div>
+                    </li>
+                </ul>
+                <ul class="services__column">
+                    <li class="services__item">
+                        <a href="#" class="services__link">Ведение беременности</a>
+                        <div class="services__price">от 1600 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Видеокольпоскопия</a>
+                        <div class="services__price">от 1700 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Вскрытие абсцесса бартолиновой железы</a>
+                        <div class="services__price">от 1000 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Мазок на флору</a>
+                        <div class="services__price">от 100 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Удаление полипа матки</a>
+                        <div class="services__price">от 6000 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Анализ секрета простаты</a>
+                        <div class="services__price">от 800 ₽</div>
+                    </li>
+                    <li class="services__item">
+                        <a href="#" class="services__link">Удаление кисты бартолиновой железы</a>
+                        <div class="services__price">от 1500 ₽</div>
+                    </li>
+                </ul>
+            </div>
+            <button data-fold-btn class="services__more more">
+                <span data-open-text="Показать еще" data-close-text="Свернуть" class="more__text">Показать еще</span> <span class="more__arrow icon-arrow-more"></span>
+            </button>
+        </div>
+    </div>
+</section>
+
+                <section class="cta">
+    <div class="container">
+        <div class="cta__body">
+            <div class="cta__content">
+                <h3>Подберем хорошего и недорогого врача в удобном для вас районе за 1 минуту</h3>
+                <div class="cta__rating">
+                    <b class="cta__rating-value">4.53</b>
+                    <div class="cta__rating-content">
+                        <div data-rating="4.53" class="cta__rating-stars rating">
+                            <div class="rating__body">
+                                <img loading="lazy" src="images/icons/stars-empty.svg" alt title />
+                                <div class="rating__active rating__active--set"></div>
+                            </div>
+                        </div>
+                        <p class="cta__rating-text"><b>Средняя оценка врачей</b> на основании 3162 отзывов и 6909 оценок</p>
+                    </div>
+                </div>
+                <div class="cta__phone">
+                    <div class="cta__phone-icon">
+                        <img loading="lazy" src="images/icons/phone.svg" alt title />
+                    </div>
+                    <a href="#" class="cta__phone-number">8 (499) 123-45-67</a>
+                    <div class="cta__caption cta__caption--desktop">Услуга <b>бесплатная</b></div>
+                </div>
+            </div>
+            <div class="cta__image">
+                <picture>
+                    <source srcset="images/blocks/cta/people-mobile.svg" media="(max-width: 768px)" />
+                    <img loading="lazy" src="images/blocks/cta/people.svg" alt title />
+                </picture>
+                <div class="cta__caption cta__caption--mobile">Услуга <b>бесплатная</b></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+                <div class="relinks">
+    <div class="container">
+        <div class="relinks__body">
+            <div data-fold class="relinks__column">
+                <b class="relinks__column-title">Направления</b>
+                <ul class="relinks__list relinks__list--mobile-row">
+                    <li class="relinks__item"><a href="#" class="relinks__link">Акушерство</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Гинекология</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Аллергология</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Андрология</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Анестезиология</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Аритмолог</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Артролог</a></li>
+                    <li data-fold-content class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Аритмолог</a></li>
+                    <li data-fold-content class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Артролог</a></li>
+                    <li data-fold-content class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Артролог</a></li>
+                </ul>
+                <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
+                    <span data-open-text="Показать еще" data-close-text="Свернуть" class="more__text">Показать еще</span><span class="icon-arrow-more more__arrow"></span>
+                </button>
+            </div>
+            <div data-fold class="relinks__column">
+                <b class="relinks__column-title">Услуги</b>
+                <ul class="relinks__list relinks__list--mobile-row">
+                    <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог-эндокринолог (от 18 лет)</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Акушер (от 18 лет)</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Гинеколог (от 18 лет)</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Артролог (от 18 лет)</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a></li>
+                    <li data-fold-content class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Артролог (от 18 лет)</a></li>
+                    <li data-fold-content class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a></li>
+                    <li data-fold-content class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Аллергология (от 18 лет)</a></li>
+                </ul>
+                <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
+                    <span data-open-text="Показать еще" data-close-text="Свернуть" class="more__text">Показать еще</span><span class="icon-arrow-more more__arrow"></span>
+                </button>
+            </div>
+            <div data-fold class="relinks__column">
+                <b class="relinks__column-title">Клиники</b>
+                <ul class="relinks__list">
+                    <li class="relinks__item">
+                        <a href="#" class="relinks__link"> <img loading="lazy" src="images/clinics/small/euromed.svg" alt title /> «Евромед» </a>
+                    </li>
+                    <li class="relinks__item">
+                        <a href="#" class="relinks__link"> <img loading="lazy" src="images/clinics/small/open-clinic.svg" alt title /> «Открытая клиника» </a>
+                    </li>
+                    <li class="relinks__item">
+                        <a href="#" class="relinks__link"> <img loading="lazy" src="images/clinics/small/moscow.svg" alt title />«Московская клиника» </a>
+                    </li>
+                    <li class="relinks__item">
+                        <a href="#" class="relinks__link"> <img loading="lazy" src="images/clinics/small/sinai.svg" alt title /> «Синай» </a>
+                    </li>
+                    <li class="relinks__item">
+                        <a href="#" class="relinks__link"> <img loading="lazy" src="images/clinics/small/euromed.svg" alt title/> «Евромед» </a>
+                    </li>
+                    <li class="relinks__item">
+                        <a href="#" class="relinks__link"> <img loading="lazy" src="images/clinics/small/open-clinic.svg" alt title/> «Открытая клиника» </a>
+                    </li>
+                    <li class="relinks__item">
+                        <a href="#" class="relinks__link"> <img loading="lazy" src="images/clinics/small/moscow.svg" alt title />«Московская клиника» </a>
+                    </li>
+                    <li data-fold-content class="relinks__item relinks__item--folded">
+                        <a href="#" class="relinks__link"> <img loading="lazy" src="images/clinics/small/euromed.svg" alt title /> «Евромед» </a>
+                    </li>
+                    <li data-fold-content class="relinks__item relinks__item--folded">
+                        <a href="#" class="relinks__link"> <img loading="lazy" src="images/clinics/small/open-clinic.svg" alt title /> «Открытая клиника» </a>
+                    </li>
+                    <li data-fold-content class="relinks__item relinks__item--folded">
+                        <a href="#" class="relinks__link"> <img loading="lazy" src="images/clinics/small/moscow.svg" alt title/>«Московская клиника» </a>
+                    </li>
+                </ul>
+                <button data-fold-btn="" class="relinks__more more">
+                    <span data-open-text="Показать еще" data-close-text="Свернуть" class="more__text">Показать еще</span><span class="icon-arrow-more more__arrow"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <div class="relinks">
+    <div class="container">
+        <div class="relinks__body relinks__body--geo">
+            <div data-fold class="relinks__column relinks__column--geo">
+                <b class="relinks__column-title">Станции метро</b>
+                <ul class="relinks__list">
+                    <li class="relinks__item">
+                        <a href="#" class="relinks__link metro">
+    <span class="metro__color metro__color--zamoskvoretskaya"></span>Новослободская
+    
+</a>
+                    </li>
+                    <li class="relinks__item">
+                        <a href="#" class="relinks__link metro">
+    <span class="metro__color metro__color--serpuhov"></span>Менделеевская
+    
+</a>
+                    </li>
+                    <li class="relinks__item">
+                        <a href="#" class="relinks__link metro">
+    <span class="metro__color metro__color--zamoskvoretskaya"></span>Маяковская
+    
+</a>
+                    </li>
+                    <li class="relinks__item">
+                        <a href="#" class="relinks__link metro">
+    <span class="metro__color metro__color--tagansk"></span>Пушкинская
+    
+</a>
+                    </li>
+                    <li class="relinks__item">
+                        <a href="#" class="relinks__link metro">
+    <span class="metro__color metro__color--tagansk"></span>Баррикадная
+    
+</a>
+                    </li>
+                    <li class="relinks__item">
+                        <a href="#" class="relinks__link metro">
+    <span class="metro__color metro__color--arbat"></span>Молодежная
+    
+</a>
+                    </li>
+                    <li class="relinks__item">
+                        <a href="#" class="relinks__link metro">
+    <span class="metro__color metro__color--lublino"></span>Марьина Роща
+    
+</a>
+                    </li>
+                    <li data-fold-content class="relinks__item relinks__item--folded">
+                        <a href="#" class="relinks__link metro">
+    <span class="metro__color metro__color--lublino"></span>Марьина Роща
+    
+</a>
+                    </li>
+                    <li data-fold-content class="relinks__item relinks__item--folded">
+                        <a href="#" class="relinks__link metro">
+    <span class="metro__color metro__color--arbat"></span>Молодежная
+    
+</a>
+                    </li>
+                    <li data-fold-content class="relinks__item relinks__item--folded">
+                        <a href="#" class="relinks__link metro">
+    <span class="metro__color metro__color--tagansk"></span>Пушкинская
+    
+</a>
+                    </li>
+                </ul>
+                <button data-fold-btn class="relinks__more more">
+                    <span data-open-text="Показать еще" data-close-text="Свернуть" class="more__text">Показать еще</span
+                    ><span class="icon-arrow-more more__arrow"></span>
+                </button>
+            </div>
+            <div data-fold class="relinks__column relinks__column--geo">
+                <b class="relinks__column-title">Районы</b>
+                <ul class="relinks__list relinks__list--mobile-row">
+                    <li class="relinks__item"><a href="#" class="relinks__link">Балашиха</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Видное (Ленинский)</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Волоколамск</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Воскресенск</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Дмитров</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Домодедово</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Егорьевск</a></li>
+                    <li data-fold-content class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Домодедово</a></li>
+                    <li data-fold-content class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Дмитров</a></li>
+                    <li data-fold-content class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Воскресенск</a></li>
+                </ul>
+                <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
+                    <span data-open-text="Показать еще" data-close-text="Свернуть" class="more__text">Показать еще</span>
+                    <span class="icon-arrow-more more__arrow"></span>
+                </button>
+            </div>
+            <div data-fold class="relinks__column relinks__column--geo">
+                <b class="relinks__column-title">Округа</b>
+                <ul class="relinks__list relinks__list--mobile-row">
+                    <li class="relinks__item"><a href="#" class="relinks__link">Центральный административный округ</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Северный административный округ</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Северо-Восточный административный округ</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Восточный административный округ</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Юго-Восточный административный округ</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Южный административный округ</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Юго-Западный административный округ</a></li>
+                    <li data-fold-content class="relinks__item relinks__item--folded">
+                        <a href="#" class="relinks__link">Юго-Западный административный округ</a>
+                    </li>
+                    <li data-fold-content class="relinks__item relinks__item--folded">
+                        <a href="#" class="relinks__link">Восточный административный округ</a>
+                    </li>
+                    <li data-fold-content class="relinks__item relinks__item--folded">
+                        <a href="#" class="relinks__link">Северо-Восточный административный округ</a>
+                    </li>
+                </ul>
+                <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
+                    <span data-open-text="Показать еще" data-close-text="Свернуть" class="more__text">Показать еще</span
+                    ><span class="icon-arrow-more more__arrow"></span>
+                </button>
+            </div>
+            <div data-fold class="relinks__column relinks__column--geo">
+                <b class="relinks__column-title">Города МО</b>
+                <ul class="relinks__list relinks__list--mobile-row">
+                    <li class="relinks__item"><a href="#" class="relinks__link">Балашиха</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Железнодорожный</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Жуковский</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Коломна</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Люберцы</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Мытищи</a></li>
+                    <li class="relinks__item"><a href="#" class="relinks__link">Одинцово</a></li>
+                    <li data-fold-content class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Мытищи</a></li>
+                    <li data-fold-content class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Коломна</a></li>
+                    <li data-fold-content class="relinks__item relinks__item--folded"><a href="#" class="relinks__link">Жуковский</a></li>
+                </ul>
+                <button data-fold-btn class="relinks__more relinks__more--mobile-row more">
+                    <span data-open-text="Показать еще" data-close-text="Свернуть" class="more__text">Показать еще</span
+                    ><span class="icon-arrow-more more__arrow"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+            </main>
+            <footer class="footer">
+    <div class="container">
+        <div class="footer__body">
+            <div class="footer__info">
+                <a href="#" class="footer__logo logo">
+                    <img loading="lazy" src="images/logo.svg" alt title />
+                </a>
+                <a href="mailto:info@mosmedportal.ru" class="footer__mail"> info@mosmedportal.ru </a>
+                <div class="footer__support support">
+                    <a href="tel:+74991233456" class="support__number"><b>8 (499) 123-34-56</b></a>
+                    <div class="support__caption">Справочная служба</div>
+                </div>
+                <div class="socials">
+                    <a href="#" class="socials__link">
+                        <span class="icon-youtube"></span>
+                    </a>
+                    <a href="#" class="socials__link">
+                        <span class="icon-telegram"></span>
+                    </a>
+                    <a href="#" class="socials__link">
+                        <span class="icon-whatsapp"></span>
+                    </a>
+                    <a href="#" class="socials__link">
+                        <span class="icon-vk"></span>
+                    </a>
+                    <a href="#" class="socials__link">
+                        <span class="icon-ok"></span>
+                    </a>
+                </div>
+            </div>
+            <nav class="menu-footer">
+                <div data-fold class="menu-footer__column">
+                    <div data-fold-btn class="menu-footer__caption">О нас <span class="icon-arrow-more menu-footer__caption-arrow"></span></div>
+                    <ul data-fold-content class="menu-footer__list">
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">О проекте</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Информация для пациентов</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Отзывы</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Контакты</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Авторы</a>
+                        </li>
+                    </ul>
+                </div>
+                <div data-fold class="menu-footer__column">
+                    <div data-fold-btn class="menu-footer__caption">Пациентам <span class="icon-arrow-more menu-footer__caption-arrow"></span></div>
+                    <ul data-fold-content class="menu-footer__list">
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Клиники</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Врачи</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Услуги</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Диагностика</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Заболевания</a>
+                        </li>
+                    </ul>
+                </div>
+                <div data-fold class="menu-footer__column">
+                    <div data-fold-btn class="menu-footer__caption">Техническая информация <span class="icon-arrow-more menu-footer__caption-arrow"></span></div>
+                    <ul data-fold-content class="menu-footer__list">
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Политика конфиденциальности</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Пользовательское соглашение</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Политика cookies</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Согласие на обработку персональных данных</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Заболевания</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">Симптомы</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="footer__limit">
+                <img loading="lazy" src="images/icons/limit.svg" alt title />
+            </div>
+        </div>
+        <div class="footer__copy">2022 © ООО «МосМедПортал» / ИНН 7777777</div>
+    </div>
+    <div class="footer__disclaimer">
+        <div class="container">
+            <div class="footer__disclaimer-body">
+                <img loading="lazy" src="images/icons/info.svg" alt title />
+                Информация предоставленная на сайте, не может быть использована для постановки диагноза, назначения лечения и не заменяет врача.
+            </div>
+        </div>
+    </div>
+</footer>
+
+        </div>
+        <script defer src="js/swiper-bundle.min.js"></script>
+        <script defer src="js/air-datepicker.js"></script>
+        <script defer src="js/app.js"></script>
+    </body>
+</html>
